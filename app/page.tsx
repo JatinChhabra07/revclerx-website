@@ -4,7 +4,6 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { GradientMesh } from '@/components/ui/gradient-mesh'
 import { VerticalCutReveal } from '@/components/ui/vertical-cut-reveal'
-import { FlipWords } from '@/components/ui/flip-words'
 import { MagneticButton } from '@/components/ui/magnetic-button'
 import { NumberTicker } from '@/components/ui/number-ticker'
 import { BentoGrid, BentoCard } from '@/components/ui/bento-grid'
@@ -66,10 +65,8 @@ export default function HomePage() {
           </div>
           <h1 className="mt-6 text-5xl md:text-7xl font-bold tracking-tight text-slate-900 text-balance leading-[1.05]">
             <VerticalCutReveal>Enterprise AI that delivers</VerticalCutReveal>{' '}
-            <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">
-              <FlipWords words={['outcomes', 'efficiency', 'value', 'ROI']} />
-            </span>
-            <span>, not overhead.</span>
+            <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">outcomes</span>
+            , not overhead.
           </h1>
           <p className="mt-6 max-w-2xl text-lg md:text-xl text-slate-600 leading-relaxed">
             RevClerx partners with forward-thinking enterprises to design, deploy, and operationalize AI that drives measurable business value, with the speed, security, and precision your organization demands.

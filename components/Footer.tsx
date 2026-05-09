@@ -66,7 +66,7 @@ export default function Footer() {
           <p className="text-sm text-slate-500 mt-1">{siteConfig.phone}</p>
           <Link
             href="/contact"
-            className="inline-flex mt-4 items-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-5 py-2 text-sm font-medium text-[#faf6ef] transition-colors"
+            className="inline-flex mt-4 items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-5 py-2 text-sm font-medium text-white"
           >
             Start a Project →
           </Link>

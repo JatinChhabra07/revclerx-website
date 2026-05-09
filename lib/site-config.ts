@@ -10,20 +10,28 @@ export const siteConfig = {
     facebook: '#'
   },
   nav: [
-    { label: 'Solutions', href: '/solutions' },
-    { label: 'How it works', href: '/how-it-works' },
+    { label: 'Home', href: '/' },
+    { label: 'Services', href: '/services' },
+    { label: 'Industries', href: '/industries' },
+    { label: 'Case Studies', href: '/case-studies' },
     { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' }
   ],
   services: [
-    { label: 'AI Readiness Assessment', href: '/solutions#assessment' },
-    { label: 'Continuous Transformation', href: '/solutions#continuous' },
-    { label: 'Enterprise Deployment', href: '/solutions#deployment' }
+    { label: 'Process Automation', href: '/services#process-automation' },
+    { label: 'AI Agents', href: '/services#ai-agents' },
+    { label: 'Conversational AI', href: '/services#conversational-ai' },
+    { label: 'Data Insights', href: '/services#data-insights' },
+    { label: 'Integration', href: '/services#integration' },
+    { label: 'Strategy & Consulting', href: '/services#consulting' }
   ],
   company: [
-    { label: 'About', href: '/about' },
-    { label: 'How it works', href: '/how-it-works' },
-    { label: 'Contact', href: '/contact' }
+    { label: 'About Us', href: '/about' },
+    { label: 'Industries', href: '/industries' },
+    { label: 'Case Studies', href: '/case-studies' },
+    { label: 'Contact', href: '/contact' },
+    { label: 'Careers', href: '#' },
+    { label: 'Blog', href: '#' }
   ],
   stats: [
     { value: 50, suffix: '+', label: 'Enterprise Deployments' },

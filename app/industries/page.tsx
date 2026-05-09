@@ -22,7 +22,7 @@ const industries = [
   {
     name: 'Financial Services',
     span: 2 as const,
-    accent: 'from-indigo-100 to-emerald-100 text-indigo-700',
+    accent: 'from-indigo-100 to-emerald-100 text-[#1f4d3a]',
     summary:
       "Decision-grade AI for risk, compliance, and customer growth, deployed inside the bank's perimeter.",
     bullets: ['Fraud detection', 'KYC automation', 'Credit risk modeling'],
@@ -33,7 +33,7 @@ const industries = [
   {
     name: 'Healthcare and Life Sciences',
     span: 2 as const,
-    accent: 'from-emerald-100 to-cyan-100 text-emerald-700',
+    accent: 'from-emerald-100 to-cyan-100 text-[#1f4d3a]',
     summary:
       'HIPAA-grade AI that accelerates research and clinical operations without compromising patient trust.',
     bullets: ['Clinical document processing', 'Drug discovery', 'Patient triage'],
@@ -44,7 +44,7 @@ const industries = [
   {
     name: 'Manufacturing',
     span: 2 as const,
-    accent: 'from-violet-50 to-indigo-50 text-violet-700',
+    accent: 'from-violet-50 to-indigo-50 text-[#1f4d3a]',
     summary:
       'Plant-floor AI that converts sensor data into uptime, quality, and tighter throughput.',
     bullets: ['Predictive maintenance', 'Quality inspection', 'Supply chain optimization'],
@@ -55,7 +55,7 @@ const industries = [
   {
     name: 'Retail and E-commerce',
     span: 1 as const,
-    accent: 'from-cyan-50 to-indigo-50 text-cyan-700',
+    accent: 'from-cyan-50 to-indigo-50 text-[#1f4d3a]',
     summary:
       'Personalization and forecasting that lift basket size, cut markdowns, and shrink return rates.',
     bullets: ['Personalization engines', 'Demand forecasting', 'Conversational commerce'],
@@ -66,7 +66,7 @@ const industries = [
   {
     name: 'Logistics and Supply Chain',
     span: 1 as const,
-    accent: 'from-indigo-50 to-violet-50 text-indigo-700',
+    accent: 'from-indigo-50 to-violet-50 text-[#1f4d3a]',
     summary:
       'Optimization across fleets, warehouses, and customer promises, all the way to the doorstep.',
     bullets: ['Route optimization', 'Warehouse intelligence', 'ETA prediction'],
@@ -77,7 +77,7 @@ const industries = [
   {
     name: 'Energy and Utilities',
     span: 1 as const,
-    accent: 'from-emerald-50 to-indigo-50 text-emerald-700',
+    accent: 'from-emerald-50 to-indigo-50 text-[#1f4d3a]',
     summary:
       'AI for grid resilience, renewable integration, and asset performance, ready for regulator scrutiny.',
     bullets: ['Grid optimization', 'Asset monitoring', 'Anomaly detection'],
@@ -88,7 +88,7 @@ const industries = [
   {
     name: 'Insurance',
     span: 1 as const,
-    accent: 'from-violet-50 to-emerald-50 text-violet-700',
+    accent: 'from-violet-50 to-emerald-50 text-[#1f4d3a]',
     summary:
       'Faster claims, sharper underwriting, and fraud signals that hold up in adjudication.',
     bullets: ['Claims automation', 'Underwriting copilots', 'Fraud analytics'],
@@ -99,7 +99,7 @@ const industries = [
   {
     name: 'Telecommunications',
     span: 1 as const,
-    accent: 'from-cyan-50 to-violet-50 text-cyan-700',
+    accent: 'from-cyan-50 to-violet-50 text-[#1f4d3a]',
     summary:
       'Intelligence layered across the network, the call center, and the customer lifecycle.',
     bullets: ['Network optimization', 'Churn prediction', 'Service automation'],
@@ -110,7 +110,7 @@ const industries = [
   {
     name: 'Real Estate and PropTech',
     span: 1 as const,
-    accent: 'from-indigo-50 to-cyan-50 text-indigo-700',
+    accent: 'from-indigo-50 to-cyan-50 text-[#1f4d3a]',
     summary:
       'Models that price assets, qualify leads, and tame the paperwork between offer and close.',
     bullets: ['Valuation models', 'Lead scoring', 'Document automation'],
@@ -121,7 +121,7 @@ const industries = [
   {
     name: 'Legal and Compliance',
     span: 1 as const,
-    accent: 'from-emerald-50 to-violet-50 text-emerald-700',
+    accent: 'from-emerald-50 to-violet-50 text-[#1f4d3a]',
     summary:
       'AI that reads, redlines, and reasons over contracts and regulations with citations you can defend.',
     bullets: ['Contract review', 'Regulatory monitoring', 'E-discovery'],
@@ -132,7 +132,7 @@ const industries = [
   {
     name: 'Education and EdTech',
     span: 1 as const,
-    accent: 'from-violet-50 to-cyan-50 text-violet-700',
+    accent: 'from-violet-50 to-cyan-50 text-[#1f4d3a]',
     summary:
       'Adaptive content and integrity tooling for institutions and platforms serving real learners at scale.',
     bullets: ['Adaptive learning', 'Content generation', 'Plagiarism detection'],
@@ -143,7 +143,7 @@ const industries = [
   {
     name: 'Public Sector',
     span: 1 as const,
-    accent: 'from-indigo-100 to-emerald-100 text-indigo-700',
+    accent: 'from-indigo-100 to-emerald-100 text-[#1f4d3a]',
     summary:
       'Citizen-grade AI that respects accessibility, transparency, and the public record from day one.',
     bullets: ['Citizen services', 'Document processing', 'Policy analytics'],
@@ -197,16 +197,16 @@ export default function IndustriesPage() {
   return (
     <PageShell>
       <Reveal as="section" className="relative overflow-hidden pt-16 md:pt-24 pb-20">
-        <GradientMesh colorScheme="ai-purple" />
+        <GradientMesh colorScheme="forest-cream" />
         <div className="relative z-10 max-w-7xl mx-auto px-6">
           <div className="max-w-4xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white shadow-sm px-4 py-1.5 text-xs font-medium text-slate-600">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              <span className="w-1.5 h-1.5 rounded-full bg-[#1f4d3a]"></span>
               Trusted in regulated, complex environments.
             </span>
             <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight text-slate-900 text-balance">
               <VerticalCutReveal>Domain Expertise Across</VerticalCutReveal>{' '}
-              <GradientText variant="animated" className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">
+              <GradientText variant="animated" className="bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">
                 12+ Industries
               </GradientText>
             </h1>
@@ -215,7 +215,7 @@ export default function IndustriesPage() {
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <MagneticButton as="div" spotlight={false} className="rounded-full">
-                <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/15 hover:shadow-indigo-500/25 transition">
+                <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-7 py-3 text-sm font-semibold text-white shadow-md shadow-black/10 hover:shadow-black/10 transition">
                   Book a Strategy Call <span aria-hidden="true">{'→'}</span>
                 </Link>
               </MagneticButton>
@@ -229,7 +229,7 @@ export default function IndustriesPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
             <div className="max-w-2xl">
-              <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">Industries We Serve</p>
+              <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Industries We Serve</p>
               <h2 className="mt-3 text-3xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Where we help, with proof.</h2>
             </div>
             <p className="text-slate-500 max-w-md leading-relaxed">Twelve sectors. One delivery model. Each engagement led by people who have already shipped in your domain.</p>
@@ -252,7 +252,7 @@ export default function IndustriesPage() {
                     <p className="text-sm text-slate-600 leading-relaxed">{ind.summary}</p>
                     <ul className="mt-4 space-y-1.5 text-sm text-slate-500">
                       {ind.bullets.map((b) => (
-                        <li key={b} className="flex gap-2"><span className="text-emerald-600">{'›'}</span> {b}</li>
+                        <li key={b} className="flex gap-2"><span className="text-[#1f4d3a]">{'›'}</span> {b}</li>
                       ))}
                     </ul>
                   </div>
@@ -265,18 +265,18 @@ export default function IndustriesPage() {
 
       <Reveal as="section" className="py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-indigo-50 via-violet-50 to-emerald-50 p-8 md:p-14">
-            <div aria-hidden="true" className="absolute -top-24 -right-16 w-[420px] h-[420px] rounded-full bg-indigo-100/60 blur-3xl"></div>
-            <div aria-hidden="true" className="absolute -bottom-24 -left-16 w-[420px] h-[420px] rounded-full bg-emerald-100/60 blur-3xl"></div>
+          <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-[#edf3ef]/60 p-8 md:p-14">
+            <div aria-hidden="true" className="absolute -top-24 -right-16 w-[420px] h-[420px] rounded-full bg-[#edf3ef]/70 blur-3xl"></div>
+            <div aria-hidden="true" className="absolute -bottom-24 -left-16 w-[420px] h-[420px] rounded-full bg-[#edf3ef]/70 blur-3xl"></div>
             <div className="relative grid lg:grid-cols-5 gap-10 items-center">
               <div className="lg:col-span-3">
-                <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">Featured Industry Deep-dive</p>
+                <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Featured Industry Deep-dive</p>
                 <h2 className="mt-3 text-3xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Financial Services, rebuilt around real-time risk.</h2>
                 <p className="mt-5 text-slate-600 leading-relaxed">A top-10 North American bank brought us in to rethink fraud detection that was burying analysts in false positives. We rebuilt the scoring stack on a hybrid graph and gradient-boosted ensemble, wired it into the existing case management tool, and shipped to production in 11 weeks.</p>
                 <p className="mt-4 text-slate-600 leading-relaxed">The model now runs on every card-not-present transaction, audits its own decisions, and feeds analyst feedback back into nightly retraining.</p>
                 <div className="mt-8 flex flex-col sm:flex-row gap-4">
                   <MagneticButton as="div" spotlight={false} className="rounded-full">
-                    <Link href="/case-studies" className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/15 hover:shadow-indigo-500/25 transition">
+                    <Link href="/case-studies" className="inline-flex items-center justify-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-7 py-3 text-sm font-semibold text-white shadow-md shadow-black/10 hover:shadow-black/10 transition">
                       Read the Case Study <span aria-hidden="true">{'→'}</span>
                     </Link>
                   </MagneticButton>
@@ -293,15 +293,15 @@ export default function IndustriesPage() {
                 >
                   <div className="w-full">
                     <p className="text-sm uppercase tracking-widest text-slate-500">Outcome</p>
-                    <p className="mt-3 text-5xl md:text-6xl font-bold bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">
+                    <p className="mt-3 text-5xl md:text-6xl font-bold bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">
                       <NumberTicker value={73} />%
                     </p>
                     <p className="mt-2 text-lg font-semibold text-slate-900">Reduction in false-positive fraud alerts.</p>
                     <ul className="mt-6 space-y-3 text-sm text-slate-600">
-                      <li className="flex gap-2"><span className="text-emerald-600">{'✓'}</span> 11-week production rollout</li>
-                      <li className="flex gap-2"><span className="text-emerald-600">{'✓'}</span> 2.4x analyst throughput</li>
-                      <li className="flex gap-2"><span className="text-emerald-600">{'✓'}</span> Zero regulator findings post-launch</li>
-                      <li className="flex gap-2"><span className="text-emerald-600">{'✓'}</span> Nightly retraining pipeline</li>
+                      <li className="flex gap-2"><span className="text-[#1f4d3a]">{'✓'}</span> 11-week production rollout</li>
+                      <li className="flex gap-2"><span className="text-[#1f4d3a]">{'✓'}</span> 2.4x analyst throughput</li>
+                      <li className="flex gap-2"><span className="text-[#1f4d3a]">{'✓'}</span> Zero regulator findings post-launch</li>
+                      <li className="flex gap-2"><span className="text-[#1f4d3a]">{'✓'}</span> Nightly retraining pipeline</li>
                     </ul>
                   </div>
                 </ShineBorder>
@@ -314,7 +314,7 @@ export default function IndustriesPage() {
       <Reveal as="section" className="py-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto">
-            <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">Industry partners we have served</p>
+            <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Industry partners we have served</p>
             <h2 className="mt-3 text-2xl md:text-3xl font-bold tracking-tight text-slate-900">Anonymized to protect their secrets, not their results.</h2>
           </div>
           <div className="mt-10">
@@ -330,7 +330,7 @@ export default function IndustriesPage() {
       <Reveal as="section" className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">How we tailor AI per industry</p>
+            <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">How we tailor AI per industry</p>
             <h2 className="mt-3 text-3xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Same delivery model. Domain-specific muscle.</h2>
             <p className="mt-5 text-slate-600 leading-relaxed">A cookie-cutter LLM does not survive a regulator, a unionized workforce, or a 30-year-old data warehouse. We adapt four levers on every engagement.</p>
           </div>
@@ -340,7 +340,7 @@ export default function IndustriesPage() {
               <div className="space-y-12">
                 {tailorSteps.map((step) => (
                   <div key={step.n} className="rounded-2xl border border-slate-200 bg-white shadow-sm p-6 hover:border-slate-300 transition">
-                    <span className="w-9 h-9 rounded-full bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 flex items-center justify-center text-sm font-bold text-white">{step.n}</span>
+                    <span className="w-9 h-9 rounded-full bg-[#1f4d3a] flex items-center justify-center text-sm font-bold text-white">{step.n}</span>
                     <h3 className="mt-5 text-lg font-semibold text-slate-900">{step.title}</h3>
                     <p className="mt-3 text-sm text-slate-600 leading-relaxed">{step.body}</p>
                   </div>
@@ -353,15 +353,15 @@ export default function IndustriesPage() {
 
       <Reveal as="section" className="py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-indigo-50 via-violet-50 to-emerald-50 p-10 md:p-16">
-            <div aria-hidden="true" className="absolute -top-24 -left-16 w-[420px] h-[420px] rounded-full bg-emerald-100/60 blur-3xl"></div>
-            <div aria-hidden="true" className="absolute -bottom-32 -right-16 w-[420px] h-[420px] rounded-full bg-indigo-100/60 blur-3xl"></div>
+          <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-[#edf3ef]/60 p-10 md:p-16">
+            <div aria-hidden="true" className="absolute -top-24 -left-16 w-[420px] h-[420px] rounded-full bg-[#edf3ef]/70 blur-3xl"></div>
+            <div aria-hidden="true" className="absolute -bottom-32 -right-16 w-[420px] h-[420px] rounded-full bg-[#edf3ef]/70 blur-3xl"></div>
             <div className="relative max-w-3xl">
               <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Do not see your industry?</h2>
               <p className="mt-5 text-slate-600 leading-relaxed">We have delivered for adjacent domains too, from agritech to aerospace MRO to municipal transit. Tell us the problem and we will tell you, honestly, whether we are the right team to solve it.</p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <MagneticButton as="div" spotlight={false} className="rounded-full">
-                  <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/15 hover:shadow-indigo-500/25 transition">
+                  <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-7 py-3 text-sm font-semibold text-white shadow-md shadow-black/10 hover:shadow-black/10 transition">
                     Contact Us <span aria-hidden="true">{'→'}</span>
                   </Link>
                 </MagneticButton>

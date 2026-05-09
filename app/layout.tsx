@@ -57,7 +57,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${grotesk.variable}`}>
-      <body className="bg-white text-slate-700 antialiased font-sans">
+      <body className="bg-[#faf6ef] text-[#2a2a2a] antialiased font-sans">
         <div className="bg-grid" aria-hidden="true" />
         {children}
       </body>

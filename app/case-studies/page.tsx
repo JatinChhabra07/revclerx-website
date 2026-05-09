@@ -69,11 +69,11 @@ export default function CaseStudiesPage() {
 
       {/* HERO */}
       <section className="relative overflow-hidden">
-        <GradientMesh colorScheme="ai-purple" className="opacity-70" />
+        <GradientMesh colorScheme="forest-cream" className="opacity-70" />
         <Reveal as="div" className="relative max-w-7xl mx-auto px-6 pt-16">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 backdrop-blur px-3 py-1 text-xs font-medium text-slate-600 mb-6">
-              <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span className="w-2 h-2 rounded-full bg-[#1f4d3a]"></span>
               Proof, not promises
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-slate-900 text-balance">
@@ -81,7 +81,7 @@ export default function CaseStudiesPage() {
               <SparklesText
                 text="algorithms"
                 colors={['#6366f1', '#a855f7', '#d946ef']}
-                className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent"
+                className="bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent"
               />
               .
             </h1>
@@ -98,7 +98,7 @@ export default function CaseStudiesPage() {
                 type="button"
                 className={
                   i === 0
-                    ? 'rounded-full px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 shadow-md shadow-indigo-500/20'
+                    ? 'rounded-full px-4 py-2 text-sm font-medium text-white bg-[#1f4d3a] hover:bg-[#163829] shadow-md shadow-black/10'
                     : 'rounded-full border border-slate-200 bg-white/80 backdrop-blur shadow-sm text-slate-600 px-4 py-2 text-sm hover:border-slate-300 hover:text-slate-900 transition'
                 }
               >
@@ -115,13 +115,13 @@ export default function CaseStudiesPage() {
       <section className="max-w-7xl mx-auto px-6 mt-24 space-y-20">
 
         {/* CASE 1: Full-bleed two-column */}
-        <Reveal as="article" className="grid md:grid-cols-2 gap-10 items-center rounded-3xl border border-slate-200 bg-gradient-to-br from-indigo-50 via-white to-white p-8 md:p-14">
+        <Reveal as="article" className="grid md:grid-cols-2 gap-10 items-center rounded-3xl border border-slate-200 bg-white p-8 md:p-14">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <span className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-100/60 text-indigo-700 px-3 py-1 text-xs font-semibold">Financial Services</span>
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#1f4d3a]/20 bg-[#edf3ef]/70 text-[#1f4d3a] px-3 py-1 text-xs font-semibold">Financial Services</span>
               <span className="text-xs text-slate-400">Case 01</span>
             </div>
-            <div className="text-7xl md:text-9xl font-bold tracking-tight bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent leading-none">
+            <div className="text-7xl md:text-9xl font-bold tracking-tight text-[#1f4d3a] leading-none">
               <NumberTicker value={73} />%
             </div>
             <p className="text-sm text-slate-500 mt-4">fewer false-positive fraud alerts</p>
@@ -136,7 +136,7 @@ export default function CaseStudiesPage() {
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">MLOps</span>
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">Risk Compliance</span>
             </div>
-            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-indigo-700 hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
+            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-[#1f4d3a] hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
           </div>
         </Reveal>
 
@@ -144,10 +144,10 @@ export default function CaseStudiesPage() {
         <Reveal as="div" className="grid md:grid-cols-2 gap-6">
           <CardSpotlight color="rgba(16, 185, 129, 0.18)" className="bg-white border-slate-200 p-8">
             <div className="flex items-center justify-between mb-6">
-              <span className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 text-emerald-700 px-3 py-1 text-xs font-semibold">Healthcare</span>
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#1f4d3a]/20 bg-[#edf3ef] text-[#1f4d3a] px-3 py-1 text-xs font-semibold">Healthcare</span>
               <span className="text-xs text-slate-400">Case 02</span>
             </div>
-            <div className="text-5xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-emerald-700 to-cyan-700 bg-clip-text text-transparent leading-none">
+            <div className="text-5xl md:text-6xl font-bold tracking-tight text-[#1f4d3a] leading-none">
               <NumberTicker value={88} />%
             </div>
             <p className="text-sm text-slate-500 mt-2 mb-6">faster clinical document processing</p>
@@ -160,15 +160,15 @@ export default function CaseStudiesPage() {
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">Agentic Workflow</span>
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">GxP Compliance</span>
             </div>
-            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-emerald-700 hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
+            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-[#1f4d3a] hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
           </CardSpotlight>
 
           <CardSpotlight color="rgba(6, 182, 212, 0.18)" className="bg-white border-slate-200 p-8">
             <div className="flex items-center justify-between mb-6">
-              <span className="inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-cyan-50 text-cyan-700 px-3 py-1 text-xs font-semibold">Retail</span>
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#1f4d3a]/20 bg-[#edf3ef] text-[#1f4d3a] px-3 py-1 text-xs font-semibold">Retail</span>
               <span className="text-xs text-slate-400">Case 04</span>
             </div>
-            <div className="text-5xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-cyan-700 to-emerald-700 bg-clip-text text-transparent leading-none">
+            <div className="text-5xl md:text-6xl font-bold tracking-tight text-[#1f4d3a] leading-none">
               +<NumberTicker value={22} />%
             </div>
             <p className="text-sm text-slate-500 mt-2 mb-6">conversion lift, +18% AOV</p>
@@ -181,18 +181,18 @@ export default function CaseStudiesPage() {
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">CDP Integration</span>
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">Experimentation</span>
             </div>
-            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-cyan-700 hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
+            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-[#1f4d3a] hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
           </CardSpotlight>
         </Reveal>
 
         {/* CASE 3: Full-bleed two-column reversed */}
-        <Reveal as="article" className="grid md:grid-cols-2 gap-10 items-center rounded-3xl border border-slate-200 bg-gradient-to-bl from-violet-50 via-white to-white p-8 md:p-14">
+        <Reveal as="article" className="grid md:grid-cols-2 gap-10 items-center rounded-3xl border border-slate-200 bg-white p-8 md:p-14">
           <div className="md:order-2">
             <div className="flex items-center gap-3 mb-6">
-              <span className="inline-flex items-center gap-2 rounded-full border border-violet-200 bg-violet-50 text-violet-700 px-3 py-1 text-xs font-semibold">Manufacturing</span>
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#1f4d3a]/20 bg-[#edf3ef] text-[#1f4d3a] px-3 py-1 text-xs font-semibold">Manufacturing</span>
               <span className="text-xs text-slate-400">Case 03</span>
             </div>
-            <div className="text-7xl md:text-9xl font-bold tracking-tight bg-gradient-to-br from-violet-600 via-indigo-600 to-fuchsia-600 bg-clip-text text-transparent leading-none">
+            <div className="text-7xl md:text-9xl font-bold tracking-tight text-[#1f4d3a] leading-none">
               <NumberTicker value={2400} />
             </div>
             <p className="text-sm text-slate-500 mt-4">downtime hours prevented annually</p>
@@ -207,18 +207,18 @@ export default function CaseStudiesPage() {
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">IoT</span>
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">Edge Inference</span>
             </div>
-            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-violet-700 hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
+            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-[#1f4d3a] hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
           </div>
         </Reveal>
 
         {/* CASE 5: Full-bleed two-column */}
-        <Reveal as="article" className="grid md:grid-cols-2 gap-10 items-center rounded-3xl border border-slate-200 bg-gradient-to-br from-amber-50 via-white to-white p-8 md:p-14">
+        <Reveal as="article" className="grid md:grid-cols-2 gap-10 items-center rounded-3xl border border-slate-200 bg-white p-8 md:p-14">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <span className="inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 text-amber-700 px-3 py-1 text-xs font-semibold">Logistics</span>
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#1f4d3a]/20 bg-[#edf3ef] text-[#1f4d3a] px-3 py-1 text-xs font-semibold">Logistics</span>
               <span className="text-xs text-slate-400">Case 05</span>
             </div>
-            <div className="text-6xl md:text-7xl font-bold tracking-tight bg-gradient-to-br from-amber-600 via-orange-600 to-fuchsia-600 bg-clip-text text-transparent leading-none">
+            <div className="text-6xl md:text-7xl font-bold tracking-tight text-[#1f4d3a] leading-none">
               6 hours to 12 minutes
             </div>
             <p className="text-sm text-slate-500 mt-4">route planning time per region</p>
@@ -233,7 +233,7 @@ export default function CaseStudiesPage() {
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">LLM Copilot</span>
               <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">Operations</span>
             </div>
-            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-amber-700 hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
+            <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-[#1f4d3a] hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
           </div>
         </Reveal>
 
@@ -241,11 +241,11 @@ export default function CaseStudiesPage() {
         <Reveal as="div" className="grid md:grid-cols-1 gap-6">
           <CardSpotlight color="rgba(217, 70, 239, 0.18)" className="bg-white border-slate-200 p-8 md:p-12">
             <div className="flex items-center justify-between mb-6">
-              <span className="inline-flex items-center gap-2 rounded-full border border-pink-200 bg-pink-50 text-pink-700 px-3 py-1 text-xs font-semibold">Insurance</span>
+              <span className="inline-flex items-center gap-2 rounded-full border border-[#1f4d3a]/20 bg-[#edf3ef] text-[#1f4d3a] px-3 py-1 text-xs font-semibold">Insurance</span>
               <span className="text-xs text-slate-400">Case 06</span>
             </div>
             <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="text-6xl md:text-7xl font-bold tracking-tight bg-gradient-to-br from-pink-600 via-fuchsia-600 to-violet-600 bg-clip-text text-transparent leading-none">
+              <div className="text-6xl md:text-7xl font-bold tracking-tight text-[#1f4d3a] leading-none">
                 <NumberTicker value={65} />%
                 <p className="text-sm font-normal text-slate-500 mt-3">claims now straight-through processed</p>
               </div>
@@ -259,7 +259,7 @@ export default function CaseStudiesPage() {
                   <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">Document AI</span>
                   <span className="rounded-full border border-slate-200 bg-slate-50 text-xs text-slate-600 px-3 py-1">Workflow Automation</span>
                 </div>
-                <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-pink-700 hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
+                <Link href="#" className="inline-flex items-center gap-2 mt-8 text-sm font-medium text-[#1f4d3a] hover:text-slate-900 transition">Read full study <span aria-hidden="true">{'>'}</span></Link>
               </div>
             </div>
           </CardSpotlight>
@@ -271,7 +271,7 @@ export default function CaseStudiesPage() {
         <div className="rounded-3xl border border-slate-200 bg-white p-8 md:p-12">
           <div className="grid md:grid-cols-3 gap-10 items-center">
             <div className="md:col-span-1">
-              <p className="text-sm font-semibold tracking-widest uppercase text-violet-700">Comparative impact</p>
+              <p className="text-sm font-semibold tracking-widest uppercase text-[#1f4d3a]">Comparative impact</p>
               <p className="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-slate-900 text-balance">Six engagements, measured the same way.</p>
               <p className="mt-4 text-slate-600 leading-relaxed">Each bar represents the headline metric improvement reported by the client team within the first quarter post-launch.</p>
             </div>
@@ -305,7 +305,7 @@ export default function CaseStudiesPage() {
 
       {/* STATS BAND */}
       <Reveal as="section" className="max-w-7xl mx-auto px-6 mt-20">
-        <div className="rounded-3xl bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 p-8 md:p-12 text-white">
+        <div className="rounded-3xl bg-[#1f4d3a] p-8 md:p-12 text-white">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
               <div className="text-4xl md:text-5xl font-bold tracking-tight">
@@ -338,7 +338,7 @@ export default function CaseStudiesPage() {
       {/* APPROACH: TracingBeam vertical timeline */}
       <Reveal as="section" className="max-w-7xl mx-auto px-6 mt-32">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold tracking-widest uppercase text-indigo-700">Our approach</p>
+          <p className="text-sm font-semibold tracking-widest uppercase text-[#1f4d3a]">Our approach</p>
           <h2 className="mt-3 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">The same playbook in every engagement.</h2>
           <p className="mt-5 text-lg text-slate-600 leading-relaxed">Three phases, sequenced so value arrives early and compounds quarter over quarter.</p>
         </div>
@@ -365,7 +365,7 @@ export default function CaseStudiesPage() {
       {/* CLIENT LOGO WALL: Marquee */}
       <Reveal as="section" className="max-w-7xl mx-auto px-6 mt-32">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold tracking-widest uppercase text-emerald-700">Trusted by</p>
+          <p className="text-sm font-semibold tracking-widest uppercase text-[#1f4d3a]">Trusted by</p>
           <h2 className="mt-3 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Enterprises that ship serious AI.</h2>
           <p className="mt-5 text-lg text-slate-600 leading-relaxed">Most clients keep names confidential. Here is the kind of company we ship for.</p>
         </div>
@@ -376,7 +376,7 @@ export default function CaseStudiesPage() {
 
       {/* BOTTOM CTA: MagneticButton */}
       <Reveal as="section" className="max-w-7xl mx-auto px-6 mt-20 mb-32">
-        <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 p-10 md:p-16 text-white">
+        <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-[#1f4d3a] p-10 md:p-16 text-white">
           <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-white/10 blur-3xl pointer-events-none"></div>
           <div className="absolute -bottom-32 -left-32 w-96 h-96 rounded-full bg-white/10 blur-3xl pointer-events-none"></div>
           <div className="relative max-w-3xl">

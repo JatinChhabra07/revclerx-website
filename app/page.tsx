@@ -56,16 +56,16 @@ export default function HomePage() {
       {/* HERO */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-60">
-          <GradientMesh colorScheme="ai-purple" />
+          <GradientMesh colorScheme="forest-cream" />
         </div>
         <div className="max-w-7xl mx-auto px-6 pt-20 pb-24 md:pt-32 md:pb-32 relative z-10">
           <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/80 px-4 py-1.5 text-xs text-slate-600 backdrop-blur">
-            <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+            <span className="w-2 h-2 rounded-full bg-[#1f4d3a]"></span>
             Enterprise AI Solutions and Consulting
           </div>
           <h1 className="mt-6 text-5xl md:text-7xl font-bold tracking-tight text-slate-900 text-balance leading-[1.05]">
             <VerticalCutReveal>Enterprise AI that delivers</VerticalCutReveal>{' '}
-            <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">outcomes</span>
+            <span className="bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">outcomes</span>
             , not overhead.
           </h1>
           <p className="mt-6 max-w-2xl text-lg md:text-xl text-slate-600 leading-relaxed">
@@ -73,7 +73,7 @@ export default function HomePage() {
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <MagneticButton as="div" spotlight={false} className="rounded-full">
-              <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/30 transition">
+              <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-7 py-3.5 text-sm font-semibold text-white shadow-md shadow-black/10 hover:shadow-black/10 transition">
                 Book a Free Strategy Call <span aria-hidden="true">→</span>
               </Link>
             </MagneticButton>
@@ -143,7 +143,7 @@ export default function HomePage() {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="max-w-3xl">
-            <span className="text-xs uppercase tracking-[0.25em] text-indigo-700">The enterprise AI gap</span>
+            <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">The enterprise AI gap</span>
             <h2 className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">87% of enterprises started AI. Fewer than 1 in 10 see real ROI.</h2>
             <p className="mt-5 text-lg text-slate-600 leading-relaxed">Most AI programs stall in the pilot phase. The blockers are rarely the models. They are integration, data quality, governance, and a roadmap that ties to revenue. RevClerx exists to close that gap.</p>
           </Reveal>
@@ -169,77 +169,77 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
             <div className="max-w-2xl">
-              <span className="text-xs uppercase tracking-[0.25em] text-emerald-700">What we do</span>
+              <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">What we do</span>
               <h2 className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">A full-stack enterprise AI partner.</h2>
               <p className="mt-5 text-slate-600 leading-relaxed">Six service lines, one accountable team. From the first readiness assessment to managed operations on day 365, we own the outcome.</p>
             </div>
-            <Link href="/services" className="inline-flex items-center gap-2 text-sm font-medium text-indigo-700 hover:text-slate-900 transition self-start">View all services <span aria-hidden="true">→</span></Link>
+            <Link href="/services" className="inline-flex items-center gap-2 text-sm font-medium text-[#1f4d3a] hover:text-slate-900 transition self-start">View all services <span aria-hidden="true">→</span></Link>
           </Reveal>
           <BentoGrid className="md:auto-rows-[16rem]">
             <BentoCard
               span={1}
-              icon={<div className="w-11 h-11 rounded-xl bg-indigo-50 border border-indigo-200 flex items-center justify-center text-indigo-700 text-lg">⚙</div>}
+              icon={<div className="w-11 h-11 rounded-xl bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] text-lg">⚙</div>}
               title="Process Automation"
               description={
                 <div>
                   <p className="text-sm text-slate-500 leading-relaxed">Document processing, RPA modernization, and workflow orchestration that cuts manual cycle times.</p>
-                  <Link href="/services#process-automation" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-indigo-700 hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
+                  <Link href="/services#process-automation" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-[#1f4d3a] hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
                 </div>
               }
             />
             <BentoCard
               span={2}
-              className="bg-gradient-to-br from-emerald-50 via-white to-indigo-50"
-              icon={<div className="w-11 h-11 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 text-lg">◈</div>}
+              className="bg-[#edf3ef]/40"
+              icon={<div className="w-11 h-11 rounded-xl bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] text-lg">◈</div>}
               title="AI Agents"
               description={
                 <div>
                   <p className="text-sm text-slate-500 leading-relaxed max-w-xl">Autonomous task agents and multi-agent systems that take action inside your stack, not just chat. From triage bots to multi-step research operators, deployed with full observability and human-in-the-loop guardrails.</p>
-                  <Link href="/services#ai-agents" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-emerald-700 hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
+                  <Link href="/services#ai-agents" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-[#1f4d3a] hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
                 </div>
               }
             />
             <BentoCard
               span={1}
-              icon={<div className="w-11 h-11 rounded-xl bg-violet-50 border border-violet-200 flex items-center justify-center text-violet-700 text-lg">◉</div>}
+              icon={<div className="w-11 h-11 rounded-xl bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] text-lg">◉</div>}
               title="Conversational AI"
               description={
                 <div>
                   <p className="text-sm text-slate-500 leading-relaxed">Enterprise chat, voice AI, and customer copilots grounded in your data, with full guardrails.</p>
-                  <Link href="/services#conversational-ai" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-violet-700 hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
+                  <Link href="/services#conversational-ai" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-[#1f4d3a] hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
                 </div>
               }
             />
             <BentoCard
               span={1}
-              icon={<div className="w-11 h-11 rounded-xl bg-cyan-50 border border-cyan-200 flex items-center justify-center text-cyan-700 text-lg">▲</div>}
+              icon={<div className="w-11 h-11 rounded-xl bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] text-lg">▲</div>}
               title="Data Insights"
               description={
                 <div>
                   <p className="text-sm text-slate-500 leading-relaxed">Predictive analytics, anomaly detection, and decision intelligence that move metrics, not dashboards.</p>
-                  <Link href="/services#data-insights" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-cyan-700 hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
+                  <Link href="/services#data-insights" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-[#1f4d3a] hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
                 </div>
               }
             />
             <BentoCard
               span={1}
-              icon={<div className="w-11 h-11 rounded-xl bg-rose-50 border border-rose-200 flex items-center justify-center text-rose-700 text-lg">⟷</div>}
+              icon={<div className="w-11 h-11 rounded-xl bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] text-lg">⟷</div>}
               title="Integration"
               description={
                 <div>
                   <p className="text-sm text-slate-500 leading-relaxed">API and ERP connectors, legacy system bridges, and pipelines that make AI usable in production.</p>
-                  <Link href="/services#integration" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-rose-700 hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
+                  <Link href="/services#integration" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-[#1f4d3a] hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
                 </div>
               }
             />
             <BentoCard
               span={1}
-              icon={<div className="w-11 h-11 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-700 text-lg">★</div>}
+              icon={<div className="w-11 h-11 rounded-xl bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] text-lg">★</div>}
               title="Strategy and Consulting"
               description={
                 <div>
                   <p className="text-sm text-slate-500 leading-relaxed">Readiness audits, phased roadmaps, and AI governance frameworks aligned to business priorities.</p>
-                  <Link href="/services#consulting" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-amber-700 hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
+                  <Link href="/services#consulting" className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-[#1f4d3a] hover:text-slate-900 transition">Learn more <span aria-hidden="true">→</span></Link>
                 </div>
               }
             />
@@ -251,7 +251,7 @@ export default function HomePage() {
       <section className="py-24 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center max-w-3xl mx-auto">
-            <span className="text-xs uppercase tracking-[0.25em] text-indigo-700">How we work</span>
+            <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">How we work</span>
             <h2 className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Assess. Accelerate. Sustain.</h2>
             <p className="mt-5 text-slate-600 leading-relaxed">A proven methodology that takes AI from boardroom to production, then keeps it performing.</p>
           </Reveal>
@@ -259,33 +259,33 @@ export default function HomePage() {
             <TracingBeam>
               <div className="space-y-20">
                 <div>
-                  <div className="text-xs font-mono text-indigo-700">01</div>
+                  <div className="text-xs font-mono text-[#1f4d3a]">01</div>
                   <h3 className="mt-3 text-3xl md:text-4xl font-bold text-slate-900">Assess</h3>
                   <p className="mt-2 text-base text-slate-500">Know before you build.</p>
                   <ul className="mt-6 space-y-3 text-base text-slate-600 max-w-2xl">
-                    <li className="flex gap-3"><span className="text-indigo-600">✓</span><span>Audit current infrastructure and AI readiness.</span></li>
-                    <li className="flex gap-3"><span className="text-indigo-600">✓</span><span>Define a phased AI roadmap aligned to business priorities.</span></li>
-                    <li className="flex gap-3"><span className="text-indigo-600">✓</span><span>Forecast ROI scenarios with quantified projections.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Audit current infrastructure and AI readiness.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Define a phased AI roadmap aligned to business priorities.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Forecast ROI scenarios with quantified projections.</span></li>
                   </ul>
                 </div>
                 <div>
-                  <div className="text-xs font-mono text-emerald-700">02</div>
+                  <div className="text-xs font-mono text-[#1f4d3a]">02</div>
                   <h3 className="mt-3 text-3xl md:text-4xl font-bold text-slate-900">Accelerate</h3>
                   <p className="mt-2 text-base text-slate-500">Build what works, fast.</p>
                   <ul className="mt-6 space-y-3 text-base text-slate-600 max-w-2xl">
-                    <li className="flex gap-3"><span className="text-emerald-600">✓</span><span>Develop custom AI models, agents, and integrations.</span></li>
-                    <li className="flex gap-3"><span className="text-emerald-600">✓</span><span>Deliver production-ready solutions in weeks, not quarters.</span></li>
-                    <li className="flex gap-3"><span className="text-emerald-600">✓</span><span>Connect AI to existing enterprise systems and workflows.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Develop custom AI models, agents, and integrations.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Deliver production-ready solutions in weeks, not quarters.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Connect AI to existing enterprise systems and workflows.</span></li>
                   </ul>
                 </div>
                 <div>
-                  <div className="text-xs font-mono text-violet-700">03</div>
+                  <div className="text-xs font-mono text-[#1f4d3a]">03</div>
                   <h3 className="mt-3 text-3xl md:text-4xl font-bold text-slate-900">Sustain</h3>
                   <p className="mt-2 text-base text-slate-500">Keep intelligence performing.</p>
                   <ul className="mt-6 space-y-3 text-base text-slate-600 max-w-2xl">
-                    <li className="flex gap-3"><span className="text-violet-600">✓</span><span>Monitor, retrain, and optimize models post-deployment.</span></li>
-                    <li className="flex gap-3"><span className="text-violet-600">✓</span><span>Ensure compliance with evolving regulations.</span></li>
-                    <li className="flex gap-3"><span className="text-violet-600">✓</span><span>Scale across business units with shared AI infrastructure.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Monitor, retrain, and optimize models post-deployment.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Ensure compliance with evolving regulations.</span></li>
+                    <li className="flex gap-3"><span className="text-[#1f4d3a]">✓</span><span>Scale across business units with shared AI infrastructure.</span></li>
                   </ul>
                 </div>
               </div>
@@ -298,14 +298,14 @@ export default function HomePage() {
       <section className="py-24 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="max-w-3xl">
-            <span className="text-xs uppercase tracking-[0.25em] text-emerald-700">Why RevClerx</span>
+            <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">Why RevClerx</span>
             <h2 className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Built for enterprise reality, not lab conditions.</h2>
           </Reveal>
           <div className="mt-16 space-y-24">
             {/* Row 1: text left, art right */}
             <Reveal className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
               <div>
-                <span className="text-xs uppercase tracking-[0.25em] text-indigo-700">01 / Outcomes</span>
+                <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">01 / Outcomes</span>
                 <h3 className="mt-3 text-3xl font-semibold text-slate-900">Outcomes before algorithms</h3>
                 <p className="mt-4 text-lg text-slate-500 leading-relaxed">We measure success in revenue recovered, costs reduced, and decisions accelerated. Every engagement starts with a target metric and an executive sponsor.</p>
               </div>
@@ -344,7 +344,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <div className="md:order-2 order-1">
-                <span className="text-xs uppercase tracking-[0.25em] text-emerald-700">02 / Security</span>
+                <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">02 / Security</span>
                 <h3 className="mt-3 text-3xl font-semibold text-slate-900">Security built in</h3>
                 <p className="mt-4 text-lg text-slate-500 leading-relaxed">From air-gapped on-premise deployments to hybrid cloud configurations, your data residency and compliance posture are non-negotiable.</p>
               </div>
@@ -353,7 +353,7 @@ export default function HomePage() {
             {/* Row 3: text left, art right */}
             <Reveal className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
               <div>
-                <span className="text-xs uppercase tracking-[0.25em] text-violet-700">03 / Speed</span>
+                <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">03 / Speed</span>
                 <h3 className="mt-3 text-3xl font-semibold text-slate-900">Speed to value</h3>
                 <p className="mt-4 text-lg text-slate-500 leading-relaxed">Average POC delivered in 4 weeks. Production rollouts in 8 to 12 weeks. We design for shipping, not slideware.</p>
               </div>
@@ -403,7 +403,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <div className="md:order-2 order-1">
-                <span className="text-xs uppercase tracking-[0.25em] text-rose-700">04 / Partnership</span>
+                <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">04 / Partnership</span>
                 <h3 className="mt-3 text-3xl font-semibold text-slate-900">Long-term partnership</h3>
                 <p className="mt-4 text-lg text-slate-500 leading-relaxed">Ongoing managed services, model monitoring, and continuous optimization. 94% of clients renew because the work compounds.</p>
               </div>
@@ -417,16 +417,16 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
             <div className="max-w-2xl">
-              <span className="text-xs uppercase tracking-[0.25em] text-violet-700">Proof, not promises</span>
+              <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">Proof, not promises</span>
               <h2 className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Selected enterprise outcomes.</h2>
             </div>
-            <Link href="/case-studies" className="inline-flex items-center gap-2 text-sm font-medium text-indigo-700 hover:text-slate-900 transition self-start">All case studies <span aria-hidden="true">→</span></Link>
+            <Link href="/case-studies" className="inline-flex items-center gap-2 text-sm font-medium text-[#1f4d3a] hover:text-slate-900 transition self-start">All case studies <span aria-hidden="true">→</span></Link>
           </Reveal>
           <div className="grid md:grid-cols-2 gap-5">
             <Reveal>
               <CardSpotlight className="bg-white border-slate-200 h-full">
                 <Link href="/case-studies" className="block">
-                  <span className="text-xs uppercase tracking-wider text-indigo-700">Financial Services</span>
+                  <span className="text-xs uppercase tracking-wider text-[#1f4d3a]">Financial Services</span>
                   <h3 className="mt-3 text-2xl font-bold text-slate-900">Top-10 US bank cuts false-positive fraud alerts by 73%.</h3>
                   <p className="mt-3 text-slate-500 leading-relaxed">Replaced static rules with a hybrid ML system trained on 24 months of transactions, deployed inside the existing risk-ops compliance framework. Zero increase in fraud loss.</p>
                   <div className="mt-5 flex flex-wrap gap-2 text-xs">
@@ -437,9 +437,9 @@ export default function HomePage() {
               </CardSpotlight>
             </Reveal>
             <Reveal>
-              <Link href="/case-studies" className="block group relative h-full rounded-2xl p-[2px] bg-gradient-to-br from-emerald-300 via-indigo-300 to-fuchsia-300 hover:from-emerald-500 hover:via-indigo-500 hover:to-fuchsia-500 transition-colors">
+              <Link href="/case-studies" className="block group relative h-full rounded-2xl p-[2px] bg-[#1f4d3a]/30 hover:bg-[#1f4d3a] transition-colors">
                 <div className="h-full rounded-[14px] bg-white p-8 shadow-sm">
-                  <span className="text-xs uppercase tracking-wider text-emerald-700">Healthcare</span>
+                  <span className="text-xs uppercase tracking-wider text-[#1f4d3a]">Healthcare</span>
                   <h3 className="mt-3 text-2xl font-bold text-slate-900">Global pharma cuts clinical document processing by 88%.</h3>
                   <p className="mt-3 text-slate-500 leading-relaxed">Built a RAG pipeline and agentic review workflow over 200K plus trial documents. 4x reviewer throughput and a complete audit trail for regulators.</p>
                   <div className="mt-5 flex flex-wrap gap-2 text-xs">
@@ -457,7 +457,7 @@ export default function HomePage() {
       <section className="py-24 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center max-w-3xl mx-auto mb-12">
-            <span className="text-xs uppercase tracking-[0.25em] text-indigo-700">The stack</span>
+            <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">The stack</span>
             <h2 className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">We build with the best, on your cloud.</h2>
           </Reveal>
           <Marquee items={stackItems} duration={40} fadeColor="white" />
@@ -465,10 +465,10 @@ export default function HomePage() {
       </section>
 
       {/* TESTIMONIAL */}
-      <section className="py-24 border-t border-slate-100 bg-gradient-to-br from-indigo-50/40 via-white to-emerald-50/40">
+      <section className="py-24 border-t border-slate-100 bg-[#edf3ef]/30">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center max-w-3xl mx-auto mb-12">
-            <span className="text-xs uppercase tracking-[0.25em] text-indigo-700">In their words</span>
+            <span className="text-xs uppercase tracking-[0.25em] text-[#1f4d3a]">In their words</span>
             <h2 className="mt-4 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Trusted by leaders who ship.</h2>
           </Reveal>
           <InfiniteMovingCards items={testimonials} direction="left" speed="slow" className="mx-auto" />
@@ -479,14 +479,14 @@ export default function HomePage() {
       <section className="py-24 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="rounded-3xl border border-slate-200 bg-white shadow-sm p-10 md:p-16 relative overflow-hidden">
-            <div className="blob blob-indigo w-[360px] h-[360px] -top-20 -right-20 opacity-30"></div>
-            <div className="blob blob-emerald w-[300px] h-[300px] -bottom-20 -left-20 opacity-30"></div>
+            <div className="blob blob-green w-[360px] h-[360px] -top-20 -right-20 opacity-30"></div>
+            <div className="blob blob-green w-[300px] h-[300px] -bottom-20 -left-20 opacity-30"></div>
             <div className="relative max-w-3xl">
               <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Schedule your free AI readiness assessment.</h2>
               <p className="mt-5 text-lg text-slate-600 leading-relaxed">A 30 minute working session with a senior consultant. We will benchmark your AI maturity, surface the highest ROI use case, and outline a 4 week path to a working prototype.</p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <MagneticButton as="div" spotlight={false} className="rounded-full">
-                  <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/30 transition">
+                  <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-7 py-3.5 text-sm font-semibold text-white shadow-md shadow-black/10 hover:shadow-black/10 transition">
                     Book a Strategy Call <span aria-hidden="true">→</span>
                   </Link>
                 </MagneticButton>

@@ -55,10 +55,10 @@ function ServiceCardBody({
       <p className="mt-2 text-sm text-slate-600 leading-relaxed">{description}</p>
       <ul className="mt-3 space-y-1.5 text-sm text-slate-500">
         {bullets.map((b) => (
-          <li key={b} className="flex gap-2"><span className="text-emerald-600">›</span> {b}</li>
+          <li key={b} className="flex gap-2"><span className="text-[#1f4d3a]">›</span> {b}</li>
         ))}
       </ul>
-      <Link href="/contact" className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-slate-900 hover:text-emerald-700 transition">
+      <Link href="/contact" className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-slate-900 hover:text-[#1f4d3a] transition">
         Learn more <span aria-hidden="true">→</span>
       </Link>
     </div>
@@ -133,11 +133,11 @@ export default function ServicesPage() {
   return (
     <PageShell>
       <Reveal as="section" className="relative overflow-hidden pt-16 md:pt-24 pb-20">
-        <GradientMesh colorScheme="navy-emerald" className="opacity-70" />
+        <GradientMesh colorScheme="forest-cream" className="opacity-70" />
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="max-w-4xl">
             <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white shadow-sm px-4 py-1.5 text-xs font-medium text-slate-600">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              <span className="w-1.5 h-1.5 rounded-full bg-[#1f4d3a]"></span>
               AI That Works. Results That Matter.
             </span>
             <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight text-slate-900 text-balance">
@@ -155,7 +155,7 @@ export default function ServicesPage() {
               <MagneticButton as="div" spotlight={false}>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-indigo-500/15 hover:shadow-indigo-500/25 transition"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-7 py-3 text-sm font-semibold text-white shadow-md shadow-black/10 hover:shadow-black/10 transition"
                 >
                   Book a Strategy Call <span aria-hidden="true">→</span>
                 </Link>
@@ -201,7 +201,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
             <div className="max-w-2xl">
-              <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">Our Service Categories</p>
+              <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Our Service Categories</p>
               <h2 className="mt-3 text-3xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Six capabilities, one operating model.</h2>
             </div>
             <p className="text-slate-500 max-w-md leading-relaxed">From discovery to deployment, our teams plug into your stack with shared standards, shared telemetry, and shared accountability for results.</p>
@@ -213,7 +213,7 @@ export default function ServicesPage() {
               className="bg-white border-slate-200 hover:shadow-xl"
               header={
                 <div id="process-automation" className="flex items-center gap-3">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-100 to-emerald-100 border border-slate-200 flex items-center justify-center text-indigo-700">
+                  <div className="w-12 h-12 rounded-xl bg-[#edf3ef] border border-slate-200 flex items-center justify-center text-[#1f4d3a]">
                     <ProcessIcon />
                   </div>
                   <span className="text-xs uppercase tracking-widest text-slate-500">Flagship capability</span>
@@ -233,7 +233,7 @@ export default function ServicesPage() {
               span={1}
               className="bg-white border-slate-200 hover:shadow-xl"
               header={
-                <div id="conversational-ai" className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-50 to-indigo-50 border border-slate-200 flex items-center justify-center text-emerald-700">
+                <div id="conversational-ai" className="w-12 h-12 rounded-xl bg-[#edf3ef] border border-slate-200 flex items-center justify-center text-[#1f4d3a]">
                   <ChatIcon />
                 </div>
               }
@@ -251,7 +251,7 @@ export default function ServicesPage() {
               span={1}
               className="bg-white border-slate-200 hover:shadow-xl"
               header={
-                <div id="data-insights" className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-50 to-indigo-50 border border-slate-200 flex items-center justify-center text-cyan-700">
+                <div id="data-insights" className="w-12 h-12 rounded-xl bg-[#edf3ef] border border-slate-200 flex items-center justify-center text-[#1f4d3a]">
                   <ChartIcon />
                 </div>
               }
@@ -270,7 +270,7 @@ export default function ServicesPage() {
               className="bg-white border-slate-200 hover:shadow-xl"
               header={
                 <div id="ai-agents" className="flex items-center gap-3">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-50 to-cyan-50 border border-slate-200 flex items-center justify-center text-violet-700">
+                  <div className="w-12 h-12 rounded-xl bg-[#edf3ef] border border-slate-200 flex items-center justify-center text-[#1f4d3a]">
                     <AgentIcon />
                   </div>
                   <span className="text-xs uppercase tracking-widest text-slate-500">Flagship capability</span>
@@ -290,7 +290,7 @@ export default function ServicesPage() {
               span={1}
               className="bg-white border-slate-200 hover:shadow-xl"
               header={
-                <div id="integration" className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-50 to-violet-50 border border-slate-200 flex items-center justify-center text-indigo-700">
+                <div id="integration" className="w-12 h-12 rounded-xl bg-[#edf3ef] border border-slate-200 flex items-center justify-center text-[#1f4d3a]">
                   <LinkIcon />
                 </div>
               }
@@ -308,7 +308,7 @@ export default function ServicesPage() {
               span={1}
               className="bg-white border-slate-200 hover:shadow-xl"
               header={
-                <div id="consulting" className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-100 to-cyan-100 border border-slate-200 flex items-center justify-center text-emerald-700">
+                <div id="consulting" className="w-12 h-12 rounded-xl bg-[#edf3ef] border border-slate-200 flex items-center justify-center text-[#1f4d3a]">
                   <StarIcon />
                 </div>
               }
@@ -328,7 +328,7 @@ export default function ServicesPage() {
       <Reveal as="section" className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">Our Process</p>
+            <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Our Process</p>
             <h2 className="mt-3 text-3xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Assess. Accelerate. Sustain.</h2>
             <p className="mt-5 text-slate-600 leading-relaxed">A repeatable operating model that turns AI ambition into shipped, governed, and measurable systems. No theater, no abandoned pilots.</p>
           </div>
@@ -339,14 +339,14 @@ export default function ServicesPage() {
                 {processSteps.map((step) => (
                   <div key={step.num} className="rounded-2xl border border-slate-200 bg-white shadow-sm p-8">
                     <div className="flex items-center gap-3">
-                      <span className="w-9 h-9 rounded-full bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 flex items-center justify-center text-sm font-bold text-white">{step.num}</span>
+                      <span className="w-9 h-9 rounded-full bg-[#1f4d3a] flex items-center justify-center text-sm font-bold text-white">{step.num}</span>
                       <span className="text-xs uppercase tracking-widest text-slate-500">{step.phase}</span>
                     </div>
                     <h3 className="mt-6 text-2xl font-semibold text-slate-900">{step.title}</h3>
                     <p className="mt-3 text-sm text-slate-600 leading-relaxed">{step.description}</p>
                     <ul className="mt-5 grid sm:grid-cols-3 gap-2 text-sm text-slate-500">
                       {step.deliverables.map((d) => (
-                        <li key={d} className="flex gap-2"><span className="text-emerald-600">✓</span> {d}</li>
+                        <li key={d} className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> {d}</li>
                       ))}
                     </ul>
                   </div>
@@ -362,14 +362,14 @@ export default function ServicesPage() {
           <ShineBorder borderRadius={28} borderWidth={2} duration={16} color="linear-gradient(90deg, #6366f1, #a855f7, #d946ef, #6366f1)" className="w-full">
             <div className="grid lg:grid-cols-3 gap-10 p-4 md:p-8">
               <div className="lg:col-span-1">
-                <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">Standard inclusions</p>
+                <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Standard inclusions</p>
                 <h2 className="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-slate-900 text-balance">What is included in every engagement.</h2>
                 <p className="mt-5 text-slate-600 leading-relaxed">No surprise add-ons. No partial deliverables. Every RevClerx project ships with the same enterprise rigor by default.</p>
               </div>
               <ul className="lg:col-span-2 grid sm:grid-cols-2 gap-x-8 gap-y-6">
                 {inclusions.map((item, i) => (
                   <li key={item.title} className={`flex items-start gap-4 ${i % 2 === 1 ? 'sm:mt-6' : ''}`}>
-                    <div className="shrink-0 w-12 h-12 rounded-xl border border-slate-200 bg-slate-50/60 flex items-center justify-center text-indigo-600">
+                    <div className="shrink-0 w-12 h-12 rounded-xl border border-slate-200 bg-slate-50/60 flex items-center justify-center text-[#1f4d3a]">
                       {item.kind === 'svg' && item.svg ? (
                         <DrawSVG path={item.svg} stroke="#6366f1" strokeWidth={4} duration={1.6} className="w-8 h-8" />
                       ) : (
@@ -391,7 +391,7 @@ export default function ServicesPage() {
       <Reveal as="section" className="py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto">
-            <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">Tech we build with</p>
+            <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Tech we build with</p>
             <h2 className="mt-3 text-3xl md:text-4xl font-bold tracking-tight text-slate-900 text-balance">A best-in-class stack, picked for your problem.</h2>
             <p className="mt-5 text-slate-600 leading-relaxed">We are model and cloud agnostic. We pick the boring, reliable tools when boring wins, and the bleeding-edge tools when they unlock real differentiation.</p>
           </div>
@@ -431,7 +431,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
             <div className="max-w-2xl">
-              <p className="text-sm font-semibold uppercase tracking-widest bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">Engagement Models</p>
+              <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Engagement Models</p>
               <h2 className="mt-3 text-3xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Pick the lane that fits where you are.</h2>
             </div>
             <p className="text-slate-500 max-w-md leading-relaxed">All engagements use the same delivery DNA. Pricing scales with scope, not seat count.</p>
@@ -445,10 +445,10 @@ export default function ServicesPage() {
                 <p className="mt-2 text-sm text-slate-500">2 weeks, fixed scope</p>
                 <p className="mt-5 text-sm text-slate-600 leading-relaxed">A focused diagnostic for leaders who need clarity before they spend. Walk away with a prioritized portfolio, gaps mapped, and a 90-day plan.</p>
                 <ul className="mt-6 space-y-2 text-sm text-slate-600 flex-1">
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Data &amp; tech audit</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Opportunity portfolio</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Executive readout</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> 90-day roadmap</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Data &amp; tech audit</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Opportunity portfolio</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Executive readout</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> 90-day roadmap</li>
                 </ul>
                 <Link href="/contact" className="mt-8 inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50 hover:border-slate-300 transition">Start a Sprint <span aria-hidden="true">→</span></Link>
               </article>
@@ -456,18 +456,18 @@ export default function ServicesPage() {
 
             <ShineBorder borderRadius={20} borderWidth={3} duration={8} color="linear-gradient(90deg, #6366f1, #a855f7, #d946ef, #6366f1)" className="h-full">
               <article className="flex flex-col h-full relative">
-                <span className="absolute -top-2 right-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-3 py-1 text-xs font-semibold text-white shadow-md">Most popular</span>
-                <span className="inline-block text-xs uppercase tracking-widest text-indigo-700">Build</span>
+                <span className="absolute -top-2 right-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-3 py-1 text-xs font-semibold text-white shadow-md">Most popular</span>
+                <span className="inline-block text-xs uppercase tracking-widest text-[#1f4d3a]">Build</span>
                 <h3 className="mt-2 text-2xl font-semibold text-slate-900">Custom Build</h3>
                 <p className="mt-2 text-sm text-slate-500">8 to 12 weeks, end to end</p>
                 <p className="mt-5 text-sm text-slate-600 leading-relaxed">Our flagship engagement. A dedicated pod takes one priority use case from POC to production with full integration, monitoring, and handover.</p>
                 <ul className="mt-6 space-y-2 text-sm text-slate-600 flex-1">
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Production-grade build</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Full integration &amp; security</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Monitoring &amp; SLA</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> 90-day post-launch support</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Production-grade build</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Full integration &amp; security</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Monitoring &amp; SLA</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> 90-day post-launch support</li>
                 </ul>
-                <Link href="/contact" className="mt-8 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/15 hover:shadow-indigo-500/25 transition">Scope a Build <span aria-hidden="true">→</span></Link>
+                <Link href="/contact" className="mt-8 inline-flex items-center justify-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-black/10 hover:shadow-black/10 transition">Scope a Build <span aria-hidden="true">→</span></Link>
               </article>
             </ShineBorder>
 
@@ -478,10 +478,10 @@ export default function ServicesPage() {
                 <p className="mt-2 text-sm text-slate-500">Ongoing, quarterly reviews</p>
                 <p className="mt-5 text-sm text-slate-600 leading-relaxed">A long-term partnership for enterprises running AI in production. We monitor, retrain, and evolve your systems while your team stays focused on the business.</p>
                 <ul className="mt-6 space-y-2 text-sm text-slate-600 flex-1">
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> 24x7 monitoring</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Quarterly model upgrades</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Cost &amp; latency tuning</li>
-                  <li className="flex gap-2"><span className="text-emerald-600">✓</span> Roadmap stewardship</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> 24x7 monitoring</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Quarterly model upgrades</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Cost &amp; latency tuning</li>
+                  <li className="flex gap-2"><span className="text-[#1f4d3a]">✓</span> Roadmap stewardship</li>
                 </ul>
                 <Link href="/contact" className="mt-8 inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-900 hover:bg-slate-50 hover:border-slate-300 transition">Talk to Operations <span aria-hidden="true">→</span></Link>
               </article>

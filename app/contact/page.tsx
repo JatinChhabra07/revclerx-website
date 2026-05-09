@@ -86,11 +86,11 @@ export default function ContactPage() {
 
       {/* HERO */}
       <section className="relative overflow-hidden">
-        <GradientMesh colorScheme="ai-purple" />
+        <GradientMesh colorScheme="forest-cream" />
         <Reveal as="div" className="relative z-10 max-w-7xl mx-auto px-6 pt-16">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/70 backdrop-blur px-3 py-1 text-xs font-medium text-slate-600 mb-6">
-              <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span className="w-2 h-2 rounded-full bg-[#1f4d3a]"></span>
               Free 30-minute consultation
             </div>
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-slate-900 text-balance">
@@ -98,7 +98,7 @@ export default function ContactPage() {
                 Let us talk about your
               </VerticalCutReveal>
               {' '}
-              <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">
+              <span className="bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">
                 AI roadmap
               </span>
               .
@@ -128,24 +128,24 @@ export default function ContactPage() {
 
               <form id="contactForm" onSubmit={onSubmit} className="mt-8 space-y-5" noValidate>
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-slate-600 mb-2">Full name <span className="text-rose-700">*</span></label>
-                  <input id="name" name="name" type="text" required placeholder="Jane Doe" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-indigo-500 focus:outline-none w-full" />
+                  <label htmlFor="name" className="block text-sm font-medium text-slate-600 mb-2">Full name <span className="text-[#1f4d3a]">*</span></label>
+                  <input id="name" name="name" type="text" required placeholder="Jane Doe" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-[#1f4d3a] focus:outline-none w-full" />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-600 mb-2">Work email <span className="text-rose-700">*</span></label>
-                  <input id="email" name="email" type="email" required placeholder="jane@company.com" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-indigo-500 focus:outline-none w-full" />
+                  <label htmlFor="email" className="block text-sm font-medium text-slate-600 mb-2">Work email <span className="text-[#1f4d3a]">*</span></label>
+                  <input id="email" name="email" type="email" required placeholder="jane@company.com" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-[#1f4d3a] focus:outline-none w-full" />
                 </div>
 
                 <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-slate-600 mb-2">Company <span className="text-rose-700">*</span></label>
-                  <input id="company" name="company" type="text" required placeholder="Acme Corp" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-indigo-500 focus:outline-none w-full" />
+                  <label htmlFor="company" className="block text-sm font-medium text-slate-600 mb-2">Company <span className="text-[#1f4d3a]">*</span></label>
+                  <input id="company" name="company" type="text" required placeholder="Acme Corp" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-[#1f4d3a] focus:outline-none w-full" />
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
                     <label htmlFor="role" className="block text-sm font-medium text-slate-600 mb-2">Role</label>
-                    <select id="role" name="role" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 focus:border-indigo-500 focus:outline-none w-full">
+                    <select id="role" name="role" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 focus:border-[#1f4d3a] focus:outline-none w-full">
                       <option className="bg-white" value="">Select your role</option>
                       <option className="bg-white" value="CEO">CEO</option>
                       <option className="bg-white" value="CTO">CTO</option>
@@ -157,7 +157,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <label htmlFor="size" className="block text-sm font-medium text-slate-600 mb-2">Company size</label>
-                    <select id="size" name="size" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 focus:border-indigo-500 focus:outline-none w-full">
+                    <select id="size" name="size" className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 focus:border-[#1f4d3a] focus:outline-none w-full">
                       <option className="bg-white" value="">Select company size</option>
                       <option className="bg-white" value="1-50">1-50</option>
                       <option className="bg-white" value="51-250">51-250</option>
@@ -170,7 +170,7 @@ export default function ContactPage() {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-slate-600 mb-2">What are you exploring?</label>
-                  <textarea id="message" name="message" rows={5} placeholder="Tell us about the workflow, metric, or problem you are looking to move." className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-indigo-500 focus:outline-none w-full"></textarea>
+                  <textarea id="message" name="message" rows={5} placeholder="Tell us about the workflow, metric, or problem you are looking to move." className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-[#1f4d3a] focus:outline-none w-full"></textarea>
                 </div>
 
                 <div>
@@ -189,7 +189,7 @@ export default function ContactPage() {
                 <p className="text-xs text-slate-400 leading-relaxed">We respond within 1 business day. All conversations are NDA-ready on request.</p>
 
                 {submitted && (
-                  <p role="status" aria-live="polite" className="rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700">
+                  <p role="status" aria-live="polite" className="rounded-xl border border-[#1f4d3a]/20 bg-[#edf3ef] px-4 py-3 text-sm text-[#1f4d3a]">
                     Thanks. A senior consultant will reach out within one business day.
                   </p>
                 )}
@@ -205,21 +205,21 @@ export default function ContactPage() {
               <h3 className="text-xl font-bold text-slate-900">Get in touch</h3>
               <div className="mt-6 space-y-4 text-sm">
                 <div className="flex items-start gap-3">
-                  <span className="w-9 h-9 rounded-full bg-indigo-50 border border-indigo-200 flex items-center justify-center text-indigo-700 shrink-0">@</span>
+                  <span className="w-9 h-9 rounded-full bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] shrink-0">@</span>
                   <div>
                     <p className="text-slate-500">Email</p>
-                    <a href="mailto:hello@revclerx.ai" className="text-slate-900 hover:text-indigo-700 transition">hello@revclerx.ai</a>
+                    <a href="mailto:hello@revclerx.ai" className="text-slate-900 hover:text-[#1f4d3a] transition">hello@revclerx.ai</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="w-9 h-9 rounded-full bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 shrink-0">{'#'}</span>
+                  <span className="w-9 h-9 rounded-full bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] shrink-0">{'#'}</span>
                   <div>
                     <p className="text-slate-500">Phone</p>
-                    <a href="tel:+14155550142" className="text-slate-900 hover:text-emerald-700 transition">+1 (415) 555-0142</a>
+                    <a href="tel:+14155550142" className="text-slate-900 hover:text-[#1f4d3a] transition">+1 (415) 555-0142</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="w-9 h-9 rounded-full bg-violet-50 border border-violet-200 flex items-center justify-center text-violet-700 shrink-0">*</span>
+                  <span className="w-9 h-9 rounded-full bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] shrink-0">*</span>
                   <div>
                     <p className="text-slate-500">Headquarters</p>
                     <p className="text-slate-900 font-semibold">Remote-first, with teams across North America, Europe, and APAC.</p>
@@ -229,13 +229,13 @@ export default function ContactPage() {
             </div>
 
             {/* Book directly */}
-            <div className="rounded-2xl bg-gradient-to-br from-indigo-600/15 via-violet-600/10 to-fuchsia-500/15 border border-slate-200 p-8">
+            <div className="rounded-2xl bg-[#edf3ef]/70 border border-slate-200 p-8">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-slate-900 border border-slate-900 flex items-center justify-center text-white text-xl shrink-0">B</div>
                 <div>
                   <h3 className="text-xl font-bold text-slate-900">Book directly</h3>
                   <p className="mt-2 text-sm text-slate-600 leading-relaxed">Skip the form. Pick a 30-minute slot on our calendar and meet a senior strategist.</p>
-                  <Link href="#" className="inline-flex items-center gap-2 mt-5 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-5 py-2 text-sm font-medium text-white shadow-lg shadow-indigo-500/15 hover:shadow-indigo-500/25 transition">Open calendar <span aria-hidden="true">{'>'}</span></Link>
+                  <Link href="#" className="inline-flex items-center gap-2 mt-5 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-5 py-2 text-sm font-medium text-white shadow-md shadow-black/10 hover:shadow-black/10 transition">Open calendar <span aria-hidden="true">{'>'}</span></Link>
                 </div>
               </div>
             </div>
@@ -249,7 +249,7 @@ export default function ContactPage() {
                     {expectSteps.map((step, i) => (
                       <li key={step.title} className="relative">
                         <div className="flex items-start gap-4">
-                          <span className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-600 via-violet-600 to-fuchsia-600 flex items-center justify-center text-sm font-bold text-white shrink-0">
+                          <span className="w-8 h-8 rounded-full bg-[#1f4d3a] flex items-center justify-center text-sm font-bold text-white shrink-0">
                             {i + 1}
                           </span>
                           <div>
@@ -267,19 +267,19 @@ export default function ContactPage() {
             {/* Press / Partners / Careers: 3-col row, no boxes */}
             <div className="grid sm:grid-cols-3 gap-6 pt-2">
               <a href="mailto:press@revclerx.ai" className="group flex flex-col gap-2">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-100 to-indigo-50 border border-indigo-200 flex items-center justify-center text-indigo-700 font-bold">M</div>
-                <p className="text-xs uppercase tracking-widest text-indigo-700 font-semibold">Media</p>
-                <p className="text-sm font-semibold text-slate-900 group-hover:text-indigo-700 transition">press@revclerx.ai</p>
+                <div className="w-10 h-10 rounded-full bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] font-bold">M</div>
+                <p className="text-xs uppercase tracking-widest text-[#1f4d3a] font-semibold">Media</p>
+                <p className="text-sm font-semibold text-slate-900 group-hover:text-[#1f4d3a] transition">press@revclerx.ai</p>
               </a>
               <a href="mailto:partners@revclerx.ai" className="group flex flex-col gap-2">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-100 to-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 font-bold">P</div>
-                <p className="text-xs uppercase tracking-widest text-emerald-700 font-semibold">Partnerships</p>
-                <p className="text-sm font-semibold text-slate-900 group-hover:text-emerald-700 transition">partners@revclerx.ai</p>
+                <div className="w-10 h-10 rounded-full bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] font-bold">P</div>
+                <p className="text-xs uppercase tracking-widest text-[#1f4d3a] font-semibold">Partnerships</p>
+                <p className="text-sm font-semibold text-slate-900 group-hover:text-[#1f4d3a] transition">partners@revclerx.ai</p>
               </a>
               <a href="mailto:careers@revclerx.ai" className="group flex flex-col gap-2">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-violet-100 to-violet-50 border border-violet-200 flex items-center justify-center text-violet-700 font-bold">C</div>
-                <p className="text-xs uppercase tracking-widest text-violet-700 font-semibold">Careers</p>
-                <p className="text-sm font-semibold text-slate-900 group-hover:text-violet-700 transition">careers@revclerx.ai</p>
+                <div className="w-10 h-10 rounded-full bg-[#edf3ef] border border-[#1f4d3a]/20 flex items-center justify-center text-[#1f4d3a] font-bold">C</div>
+                <p className="text-xs uppercase tracking-widest text-[#1f4d3a] font-semibold">Careers</p>
+                <p className="text-sm font-semibold text-slate-900 group-hover:text-[#1f4d3a] transition">careers@revclerx.ai</p>
               </a>
             </div>
 
@@ -290,7 +290,7 @@ export default function ContactPage() {
       {/* FAQ */}
       <Reveal as="section" className="max-w-4xl mx-auto px-6 mt-32">
         <div className="text-center max-w-2xl mx-auto">
-          <p className="text-sm font-semibold tracking-widest uppercase text-indigo-700">FAQ</p>
+          <p className="text-sm font-semibold tracking-widest uppercase text-[#1f4d3a]">FAQ</p>
           <h2 className="mt-3 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">Frequently asked.</h2>
           <p className="mt-5 text-lg text-slate-600 leading-relaxed">Quick answers to the questions we hear most often on first calls.</p>
         </div>
@@ -305,7 +305,7 @@ export default function ContactPage() {
         <div className="rounded-2xl bg-white shadow-sm border border-slate-200 p-8 md:p-10">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
-              <p className="text-sm font-semibold tracking-widest uppercase text-emerald-700">Compliance posture</p>
+              <p className="text-sm font-semibold tracking-widest uppercase text-[#1f4d3a]">Compliance posture</p>
               <h3 className="mt-2 text-2xl font-bold text-slate-900">Built for regulated enterprises.</h3>
             </div>
           </div>

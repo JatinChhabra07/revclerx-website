@@ -17,7 +17,7 @@ import { useAnimationConfig } from './use-animation-config'
  *   </section>
  */
 
-type ColorScheme = 'navy-emerald' | 'emerald-only' | 'gold-accent' | 'blue-cyan' | 'ai-purple'
+type ColorScheme = 'navy-emerald' | 'emerald-only' | 'gold-accent' | 'blue-cyan' | 'ai-purple' | 'forest-cream'
 
 const COLOR_MAP: Record<ColorScheme, string[]> = {
   'navy-emerald': [
@@ -49,6 +49,12 @@ const COLOR_MAP: Record<ColorScheme, string[]> = {
     'radial-gradient(circle, rgba(85, 56, 196, 0.14) 0%, transparent 70%)',
     'radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%)',
     'radial-gradient(circle, rgba(124, 58, 237, 0.08) 0%, transparent 70%)',
+  ],
+  'forest-cream': [
+    'radial-gradient(circle, rgba(31, 77, 58, 0.22) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(22, 56, 41, 0.16) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(212, 201, 176, 0.18) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.10) 0%, transparent 70%)',
   ],
 }
 

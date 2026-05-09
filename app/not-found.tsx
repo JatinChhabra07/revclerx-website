@@ -4,22 +4,39 @@ import Link from 'next/link'
 export default function NotFound() {
   return (
     <PageShell>
-      <section className="flex-1 flex items-center justify-center relative overflow-hidden">
-        <div className="blob blob-indigo w-[480px] h-[480px] -top-24 -left-24"></div>
-        <div className="blob blob-emerald w-[420px] h-[420px] bottom-0 -right-32"></div>
-        <div className="max-w-4xl mx-auto px-6 py-24 text-center relative">
-          <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-1.5 text-xs text-slate-600 backdrop-blur">
-            <span className="w-2 h-2 rounded-full bg-rose-400"></span>
+      <section className="bg-[#faf6ef] min-h-[70vh] flex items-center justify-center">
+        <div className="max-w-3xl mx-auto px-6 py-24 text-center">
+          <div className="inline-flex items-center gap-2 rounded-full bg-white border border-[#e5e2db] px-4 py-1.5 text-xs font-medium text-[#0a0a0a]">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#1f4d3a]"></span>
             Page not found
           </div>
-          <h1 className="mt-8 text-7xl md:text-9xl font-bold tracking-tight grad-text leading-none">404</h1>
-          <h2 className="mt-6 text-3xl md:text-5xl font-bold tracking-tight text-slate-900 text-balance">This page wandered off.</h2>
-          <p className="mt-5 max-w-2xl mx-auto text-lg text-slate-600 leading-relaxed">Let us get you back on track. The link you followed may be broken, or the page may have moved. Try one of the destinations below.</p>
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <Link href="/" className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/30 transition">Back to Home <span aria-hidden>{'→'}</span></Link>
-            <Link href="/services" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-7 py-3.5 text-sm font-semibold text-slate-900 hover:bg-slate-100 transition">Explore Services</Link>
-            <Link href="/case-studies" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-7 py-3.5 text-sm font-semibold text-slate-900 hover:bg-slate-100 transition">View Case Studies</Link>
-            <Link href="/contact" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-7 py-3.5 text-sm font-semibold text-slate-900 hover:bg-slate-100 transition">Contact Us</Link>
+          <h1 className="mt-8 text-7xl md:text-8xl font-semibold tracking-tight text-[#0a0a0a] leading-none">404</h1>
+          <p className="mt-6 text-2xl md:text-3xl font-semibold tracking-tight text-[#0a0a0a] text-balance">
+            This page is no longer here.
+          </p>
+          <p className="mt-5 max-w-xl mx-auto text-lg text-[#2a2a2a] leading-relaxed">
+            The link may be broken or the page may have moved. Try one of the routes below.
+          </p>
+          <div className="mt-10 flex flex-wrap justify-center gap-3">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-7 py-3.5 text-sm font-semibold text-[#faf6ef] transition-colors"
+            >
+              Back to home
+              <span aria-hidden="true">{'→'}</span>
+            </Link>
+            <Link
+              href="/solutions"
+              className="inline-flex items-center gap-2 rounded-full border border-[#0a0a0a] bg-transparent px-7 py-3.5 text-sm font-semibold text-[#0a0a0a] hover:bg-[#0a0a0a] hover:text-[#faf6ef] transition-colors"
+            >
+              Explore solutions
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-full border border-[#e5e2db] bg-white px-7 py-3.5 text-sm font-semibold text-[#0a0a0a] hover:border-[#0a0a0a] transition-colors"
+            >
+              Contact us
+            </Link>
           </div>
         </div>
       </section>

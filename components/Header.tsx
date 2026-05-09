@@ -36,7 +36,7 @@ export default function Header() {
         </nav>
         <Link
           href="/contact"
-          className="hidden sm:inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 px-5 py-2 text-sm font-medium text-white shadow-lg shadow-indigo-500/15 hover:shadow-indigo-500/25 transition"
+          className="hidden sm:inline-flex items-center gap-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-5 py-2 text-sm font-medium text-[#faf6ef] transition-colors"
         >
           Book a Strategy Call <span aria-hidden>→</span>
         </Link>

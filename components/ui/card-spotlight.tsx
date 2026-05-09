@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 export function CardSpotlight({
   children,
   className,
-  color = 'rgba(99, 102, 241, 0.15)',
+  color = 'rgba(31, 77, 58, 0.15)',
   radius = 400,
 }: { children: React.ReactNode; className?: string; color?: string; radius?: number }) {
   const ref = useRef<HTMLDivElement>(null)

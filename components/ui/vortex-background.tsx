@@ -8,7 +8,7 @@ export function VortexBackground({ className }: { className?: string }) {
       <div
         className="absolute -inset-[50%]"
         style={{
-          background: 'conic-gradient(from 0deg at 50% 50%, #4f46e5, #9333ea, #db2777, #f59e0b, #4f46e5)',
+          background: 'conic-gradient(from 0deg at 50% 50%, #1f4d3a, #9333ea, #db2777, #f59e0b, #1f4d3a)',
           filter: 'blur(80px)',
           animation: 'spin-slow 25s linear infinite',
         }}

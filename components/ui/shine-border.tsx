@@ -7,7 +7,7 @@ export function ShineBorder({
   borderRadius = 12,
   borderWidth = 2,
   duration = 14,
-  color = 'linear-gradient(90deg, #FFBE7B, #FE8FB5, #A07CFE)',
+  color = 'linear-gradient(90deg, #d4c9b0, #163829, #1f4d3a)',
 }: {
   children: React.ReactNode
   className?: string

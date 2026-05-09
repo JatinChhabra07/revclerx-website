@@ -12,7 +12,7 @@ import { useEffect, useRef } from 'react'
  *
  * Usage:
  *   <section className="relative">
- *     <InteractiveDotGrid dotColor="rgba(107, 78, 228, 0.15)" glowColor="rgba(107, 78, 228, 0.4)" />
+ *     <InteractiveDotGrid dotColor="rgba(31, 77, 58, 0.15)" glowColor="rgba(31, 77, 58, 0.4)" />
  *     <div className="relative z-10">{content}</div>
  *   </section>
  */
@@ -27,8 +27,8 @@ interface DotGridProps {
 
 export function InteractiveDotGrid({
   className = '',
-  dotColor = 'rgba(16, 185, 129, 0.15)',
-  glowColor = 'rgba(16, 185, 129, 0.4)',
+  dotColor = 'rgba(31, 77, 58, 0.15)',
+  glowColor = 'rgba(31, 77, 58, 0.4)',
   dotSize = 1.5,
   spacing = 28,
 }: DotGridProps) {

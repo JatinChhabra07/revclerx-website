@@ -288,7 +288,7 @@ export default function IndustriesPage() {
                   borderRadius={20}
                   borderWidth={2}
                   duration={10}
-                  color="linear-gradient(90deg, #6366f1, #8b5cf6, #d946ef, #6366f1)"
+                  color="linear-gradient(90deg, #1f4d3a, #163829, #d4c9b0, #1f4d3a)"
                   className="w-full"
                 >
                   <div className="w-full">

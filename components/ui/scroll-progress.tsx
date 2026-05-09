@@ -3,7 +3,7 @@
 import { motion, useScroll, useSpring } from 'framer-motion'
 import { cn } from '@/lib/utils'
 
-export function ScrollProgress({ className, color = '#3b82f6' }: { className?: string; color?: string }) {
+export function ScrollProgress({ className, color = '#1f4d3a' }: { className?: string; color?: string }) {
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, { stiffness: 120, damping: 20, restDelta: 0.001 })
   return (

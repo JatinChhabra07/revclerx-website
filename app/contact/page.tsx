@@ -119,7 +119,7 @@ export default function ContactPage() {
             borderRadius={20}
             borderWidth={2}
             duration={14}
-            color="linear-gradient(90deg, #4f46e5, #7c3aed, #c026d3, #4f46e5)"
+            color="linear-gradient(90deg, #1f4d3a, #163829, #d4c9b0, #1f4d3a)"
             className="w-full"
           >
             <div className="w-full p-2 md:p-4">
@@ -176,7 +176,7 @@ export default function ContactPage() {
                 <div>
                   <ShimmerButton
                     type="submit"
-                    background="linear-gradient(90deg, #4f46e5, #7c3aed, #c026d3)"
+                    background="linear-gradient(90deg, #1f4d3a, #163829, #d4c9b0)"
                     shimmerColor="#ffffff"
                     shimmerDuration="3s"
                     borderRadius="100px"

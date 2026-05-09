@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils'
 export function BarChartAnimated({
   data,
   labels,
-  color = '#3b82f6',
+  color = '#1f4d3a',
   className,
   height = 200,
 }: {

@@ -315,7 +315,7 @@
   inset: 0;
   padding: 1px;
   border-radius: inherit;
-  background: conic-gradient(from var(--conic-angle), var(--conic-color-1, #3b82f6), var(--conic-color-2, #8b5cf6), var(--conic-color-1, #3b82f6));
+  background: conic-gradient(from var(--conic-angle), var(--conic-color-1, #1f4d3a), var(--conic-color-2, #163829), var(--conic-color-1, #1f4d3a));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;

@@ -36,8 +36,8 @@ const milestones = [
 ]
 
 const leaders = [
-  { gradient: 'from-indigo-400 to-violet-400', glow: 'rgba(124, 58, 237, 0.3)', name: 'Co-founder and CEO', role: 'AI Strategy, Enterprise Delivery', roleColor: 'text-[#1f4d3a]', blurb: 'Former CIO at a Fortune 500. Fifteen years architecting AI and data programs in regulated industries.' },
-  { gradient: 'from-emerald-400 to-cyan-400', glow: 'rgba(16, 185, 129, 0.3)', name: 'Co-founder and CTO', role: 'ML Systems, Production AI', roleColor: 'text-[#1f4d3a]', blurb: 'Built large-scale ML platforms at two hyperscalers. Open source contributor to retrieval and agent frameworks.' },
+  { gradient: 'from-indigo-400 to-violet-400', glow: 'rgba(22, 56, 41, 0.3)', name: 'Co-founder and CEO', role: 'AI Strategy, Enterprise Delivery', roleColor: 'text-[#1f4d3a]', blurb: 'Former CIO at a Fortune 500. Fifteen years architecting AI and data programs in regulated industries.' },
+  { gradient: 'from-emerald-400 to-cyan-400', glow: 'rgba(31, 77, 58, 0.3)', name: 'Co-founder and CTO', role: 'ML Systems, Production AI', roleColor: 'text-[#1f4d3a]', blurb: 'Built large-scale ML platforms at two hyperscalers. Open source contributor to retrieval and agent frameworks.' },
   { gradient: 'from-violet-400 to-rose-400', glow: 'rgba(244, 63, 94, 0.3)', name: 'Co-founder and CDO', role: 'Data Governance, Compliance', roleColor: 'text-[#1f4d3a]', blurb: 'Former regulator turned operator. Built data governance programs across financial services and healthcare.' },
 ]
 
@@ -98,7 +98,7 @@ export default function AboutPage() {
                   className="md:col-span-2 row-span-1"
                   borderRadius={16}
                   borderWidth={1}
-                  color="linear-gradient(90deg, #4f46e5, #7c3aed, #d946ef)"
+                  color="linear-gradient(90deg, #1f4d3a, #163829, #d4c9b0)"
                 >
                   <div className="w-full h-full flex flex-col justify-end p-2">
                     <div className={`text-sm font-mono ${p.color}`}>{p.tag}</div>
@@ -205,7 +205,7 @@ export default function AboutPage() {
             heading="Want to see how we work?"
             subheading="Book a 30 minute call. We will walk you through a recent deployment in your industry and outline what your first 4 weeks with RevClerx would look like."
             primaryCta={{ label: 'Book a Strategy Call', href: '/contact' }}
-            gradient="linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #d946ef 100%)"
+            gradient="linear-gradient(135deg, #1f4d3a 0%, #163829 50%, #d4c9b0 100%)"
           />
           <div className="mt-6 flex justify-center">
             <Link href="/case-studies" className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-7 py-3.5 text-sm font-semibold text-slate-900 hover:bg-slate-50 transition">See case studies</Link>

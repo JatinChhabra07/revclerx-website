@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react'
 import { cn } from '@/lib/utils'
 
-export function CursorTrail({ color = '#6366f1', size = 8, trailLength = 12, className }: { color?: string; size?: number; trailLength?: number; className?: string }) {
+export function CursorTrail({ color = '#1f4d3a', size = 8, trailLength = 12, className }: { color?: string; size?: number; trailLength?: number; className?: string }) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
   useEffect(() => {

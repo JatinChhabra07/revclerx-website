@@ -7,7 +7,7 @@ export function AuroraBackground({ className }: { className?: string }) {
       <div
         className="absolute -inset-[10%] opacity-60 blur-3xl"
         style={{
-          background: 'conic-gradient(from 180deg at 50% 50%, #00d4ff 0deg, #7c3aed 120deg, #ec4899 240deg, #00d4ff 360deg)',
+          background: 'conic-gradient(from 180deg at 50% 50%, #00d4ff 0deg, #163829 120deg, #ec4899 240deg, #00d4ff 360deg)',
           animation: 'spin-slow 22s linear infinite',
         }}
       />

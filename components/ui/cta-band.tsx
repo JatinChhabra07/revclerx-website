@@ -6,7 +6,7 @@ export function CTABand({
   subheading,
   primaryCta,
   className,
-  gradient = 'linear-gradient(135deg, #6366f1 0%, #a855f7 100%)',
+  gradient = 'linear-gradient(135deg, #1f4d3a 0%, #163829 100%)',
 }: {
   heading: string
   subheading?: string

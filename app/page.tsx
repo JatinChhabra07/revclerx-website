@@ -313,8 +313,8 @@ export default function HomePage() {
                 <svg viewBox="0 0 400 320" className="w-full h-full" aria-hidden="true">
                   <defs>
                     <linearGradient id="why-grad-1" x1="0" x2="1" y1="0" y2="1">
-                      <stop offset="0%" stopColor="#6366f1" />
-                      <stop offset="100%" stopColor="#a855f7" />
+                      <stop offset="0%" stopColor="#1f4d3a" />
+                      <stop offset="100%" stopColor="#163829" />
                     </linearGradient>
                   </defs>
                   <circle cx="200" cy="160" r="120" fill="none" stroke="url(#why-grad-1)" strokeWidth="1.5" strokeDasharray="4 6" />
@@ -332,8 +332,8 @@ export default function HomePage() {
                 <svg viewBox="0 0 400 320" className="w-full h-full" aria-hidden="true">
                   <defs>
                     <linearGradient id="why-grad-2" x1="0" x2="1" y1="0" y2="1">
-                      <stop offset="0%" stopColor="#10b981" />
-                      <stop offset="100%" stopColor="#6366f1" />
+                      <stop offset="0%" stopColor="#1f4d3a" />
+                      <stop offset="100%" stopColor="#1f4d3a" />
                     </linearGradient>
                   </defs>
                   <rect x="80" y="80" width="240" height="160" rx="16" fill="none" stroke="url(#why-grad-2)" strokeWidth="1.5" />
@@ -361,8 +361,8 @@ export default function HomePage() {
                 <svg viewBox="0 0 400 320" className="w-full h-full" aria-hidden="true">
                   <defs>
                     <linearGradient id="why-grad-3" x1="0" x2="1" y1="0" y2="0">
-                      <stop offset="0%" stopColor="#a855f7" />
-                      <stop offset="100%" stopColor="#d946ef" />
+                      <stop offset="0%" stopColor="#163829" />
+                      <stop offset="100%" stopColor="#d4c9b0" />
                     </linearGradient>
                   </defs>
                   <line x1="40" y1="160" x2="360" y2="160" stroke="#e2e8f0" strokeWidth="1.5" />
@@ -386,8 +386,8 @@ export default function HomePage() {
                 <svg viewBox="0 0 400 320" className="w-full h-full" aria-hidden="true">
                   <defs>
                     <linearGradient id="why-grad-4" x1="0" x2="1" y1="0" y2="1">
-                      <stop offset="0%" stopColor="#6366f1" />
-                      <stop offset="100%" stopColor="#10b981" />
+                      <stop offset="0%" stopColor="#1f4d3a" />
+                      <stop offset="100%" stopColor="#1f4d3a" />
                     </linearGradient>
                   </defs>
                   <circle cx="120" cy="160" r="30" fill="none" stroke="url(#why-grad-4)" strokeWidth="1.5" />

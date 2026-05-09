@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 export function HoverGlow({
   children,
   className,
-  color = 'rgba(99, 102, 241, 0.3)',
+  color = 'rgba(31, 77, 58, 0.3)',
   size = 300,
 }: { children: React.ReactNode; className?: string; color?: string; size?: number }) {
   const ref = useRef<HTMLDivElement>(null)

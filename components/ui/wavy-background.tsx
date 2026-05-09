@@ -3,7 +3,7 @@
 import { cn } from '@/lib/utils'
 
 export function WavyBackground({
-  colors = ['#38bdf8', '#818cf8', '#c084fc', '#e879f9', '#22d3ee'],
+  colors = ['#38bdf8', '#818cf8', '#c084fc', '#d4c9b0', '#22d3ee'],
   waveOpacity = 0.5,
   className,
 }: { colors?: string[]; waveOpacity?: number; className?: string }) {

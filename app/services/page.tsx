@@ -359,7 +359,7 @@ export default function ServicesPage() {
 
       <Reveal as="section" className="py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <ShineBorder borderRadius={28} borderWidth={2} duration={16} color="linear-gradient(90deg, #6366f1, #a855f7, #d946ef, #6366f1)" className="w-full">
+          <ShineBorder borderRadius={28} borderWidth={2} duration={16} color="linear-gradient(90deg, #1f4d3a, #163829, #d4c9b0, #1f4d3a)" className="w-full">
             <div className="grid lg:grid-cols-3 gap-10 p-4 md:p-8">
               <div className="lg:col-span-1">
                 <p className="text-sm font-semibold uppercase tracking-widest bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent">Standard inclusions</p>
@@ -371,9 +371,9 @@ export default function ServicesPage() {
                   <li key={item.title} className={`flex items-start gap-4 ${i % 2 === 1 ? 'sm:mt-6' : ''}`}>
                     <div className="shrink-0 w-12 h-12 rounded-xl border border-slate-200 bg-slate-50/60 flex items-center justify-center text-[#1f4d3a]">
                       {item.kind === 'svg' && item.svg ? (
-                        <DrawSVG path={item.svg} stroke="#6366f1" strokeWidth={4} duration={1.6} className="w-8 h-8" />
+                        <DrawSVG path={item.svg} stroke="#1f4d3a" strokeWidth={4} duration={1.6} className="w-8 h-8" />
                       ) : (
-                        <AnimatedCircles count={3} color="#10b981" className="w-8 h-8" />
+                        <AnimatedCircles count={3} color="#1f4d3a" className="w-8 h-8" />
                       )}
                     </div>
                     <div>
@@ -454,7 +454,7 @@ export default function ServicesPage() {
               </article>
             </ShineBorder>
 
-            <ShineBorder borderRadius={20} borderWidth={3} duration={8} color="linear-gradient(90deg, #6366f1, #a855f7, #d946ef, #6366f1)" className="h-full">
+            <ShineBorder borderRadius={20} borderWidth={3} duration={8} color="linear-gradient(90deg, #1f4d3a, #163829, #d4c9b0, #1f4d3a)" className="h-full">
               <article className="flex flex-col h-full relative">
                 <span className="absolute -top-2 right-2 rounded-full bg-[#1f4d3a] hover:bg-[#163829] px-3 py-1 text-xs font-semibold text-white shadow-md">Most popular</span>
                 <span className="inline-block text-xs uppercase tracking-widest text-[#1f4d3a]">Build</span>
@@ -496,7 +496,7 @@ export default function ServicesPage() {
             heading="Ready to deploy AI that ships?"
             subheading="Skip the slide deck. Spend 30 minutes with a senior engineer and walk out with a concrete next step, whether that is a sprint, a build, or a polite not yet."
             primaryCta={{ label: 'Book a Strategy Call', href: '/contact' }}
-            gradient="linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #c026d3 100%)"
+            gradient="linear-gradient(135deg, #1f4d3a 0%, #163829 50%, #d4c9b0 100%)"
           />
         </div>
       </Reveal>

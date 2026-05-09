@@ -8,7 +8,7 @@ export function AreaChart({
   data,
   width = 400,
   height = 120,
-  color = '#3b82f6',
+  color = '#1f4d3a',
   className,
 }: { data: number[]; width?: number; height?: number; color?: string; className?: string }) {
   const ref = useRef<SVGSVGElement>(null)

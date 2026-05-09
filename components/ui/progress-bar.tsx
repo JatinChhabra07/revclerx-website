@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils'
 export function ProgressBar({
   value,
   className,
-  color = '#3b82f6',
+  color = '#1f4d3a',
   height = 6,
   shimmer = false,
 }: { value: number; className?: string; color?: string; height?: number; shimmer?: boolean }) {

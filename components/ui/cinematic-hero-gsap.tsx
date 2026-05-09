@@ -41,9 +41,9 @@ if (typeof window !== 'undefined') {
 function DefaultMascot() {
   return (
     <svg viewBox="0 0 200 200" fill="none" className="w-full h-full" aria-hidden="true">
-      <circle cx="100" cy="100" r="80" fill="#3b82f6" opacity="0.1" />
-      <circle cx="100" cy="100" r="50" fill="#3b82f6" opacity="0.2" />
-      <circle cx="100" cy="100" r="25" fill="#3b82f6" />
+      <circle cx="100" cy="100" r="80" fill="#1f4d3a" opacity="0.1" />
+      <circle cx="100" cy="100" r="50" fill="#1f4d3a" opacity="0.2" />
+      <circle cx="100" cy="100" r="25" fill="#1f4d3a" />
     </svg>
   )
 }
@@ -177,7 +177,7 @@ export function CinematicHero({
         <h1
           className="hero-subtitle text-4xl md:text-6xl lg:text-[5.5rem] font-extrabold tracking-tighter"
           style={{
-            background: 'linear-gradient(135deg, #2563eb, #06b6d4)',
+            background: 'linear-gradient(135deg, #2563eb, #1f4d3a)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
           }}
@@ -191,7 +191,7 @@ export function CinematicHero({
         <h2
           className="text-4xl md:text-5xl lg:text-6xl font-bold mb-5 tracking-tight"
           style={{
-            background: 'linear-gradient(135deg, #2563eb, #06b6d4)',
+            background: 'linear-gradient(135deg, #2563eb, #1f4d3a)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
           }}

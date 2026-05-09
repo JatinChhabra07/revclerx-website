@@ -22,12 +22,12 @@ export function TracingBeam({ children, className }: { children: React.ReactNode
       <div className="absolute -left-4 md:-left-20 top-3">
         <motion.div
           transition={{ duration: 0.2, delay: 0.5 }}
-          animate={{ boxShadow: scrollYProgress.get() > 0 ? 'none' : '0 0 0 2px rgba(99, 102, 241, 0.25)' }}
+          animate={{ boxShadow: scrollYProgress.get() > 0 ? 'none' : '0 0 0 2px rgba(31, 77, 58, 0.25)' }}
           className="ml-[27px] h-4 w-4 rounded-full border border-border bg-background shadow-sm flex items-center justify-center"
         >
           <motion.div
             transition={{ duration: 0.2, delay: 0.5 }}
-            animate={{ backgroundColor: scrollYProgress.get() > 0 ? 'transparent' : '#10b981' }}
+            animate={{ backgroundColor: scrollYProgress.get() > 0 ? 'transparent' : '#1f4d3a' }}
             className="h-2 w-2 rounded-full border border-border bg-primary"
           />
         </motion.div>

@@ -28,7 +28,7 @@ interface Particle {
   life: number
 }
 
-const COLORS = ['#10B981', '#D4A853', '#34D399', '#059669', '#E5C17C', '#0B1D3A']
+const COLORS = ['#10B981', '#D4A853', '#34D399', '#1f4d3a', '#E5C17C', '#0B1D3A']
 
 interface ConfettiProps {
   /** Whether to fire confetti. Toggle from false→true to trigger. */

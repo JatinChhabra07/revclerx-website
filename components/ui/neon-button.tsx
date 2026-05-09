@@ -1,7 +1,7 @@
 /** NeonButton — outline button with neon glow on hover. */
 import { cn } from '@/lib/utils'
 
-export function NeonButton({ children, className, glowColor = '#7c3aed', ...rest }: React.ButtonHTMLAttributes<HTMLButtonElement> & { glowColor?: string }) {
+export function NeonButton({ children, className, glowColor = '#163829', ...rest }: React.ButtonHTMLAttributes<HTMLButtonElement> & { glowColor?: string }) {
   return (
     <button
       className={cn('relative inline-flex items-center justify-center rounded-lg border-2 px-6 py-3 text-sm font-semibold transition-all', className)}

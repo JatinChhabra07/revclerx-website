@@ -7,11 +7,11 @@ export function LampEffect({ className, children }: { className?: string; childr
       <div className="relative flex w-full flex-1 scale-y-125 items-center justify-center isolate z-0">
         <div
           className="absolute inset-auto right-1/2 h-56 overflow-visible w-[30rem] bg-gradient-conic from-cyan-500 via-transparent to-transparent text-white [--conic-position:from_70deg_at_center_top]"
-          style={{ background: 'conic-gradient(from 70deg at center top, #06b6d4, transparent, transparent)' }}
+          style={{ background: 'conic-gradient(from 70deg at center top, #1f4d3a, transparent, transparent)' }}
         />
         <div
           className="absolute inset-auto left-1/2 h-56 w-[30rem] text-white [--conic-position:from_290deg_at_center_top]"
-          style={{ background: 'conic-gradient(from 290deg at center top, transparent, transparent, #06b6d4)' }}
+          style={{ background: 'conic-gradient(from 290deg at center top, transparent, transparent, #1f4d3a)' }}
         />
         <div className="absolute top-1/2 h-48 w-full translate-y-12 scale-x-150 bg-slate-950 blur-2xl" />
         <div className="absolute top-1/2 z-50 h-48 w-full bg-transparent opacity-10 backdrop-blur-md" />

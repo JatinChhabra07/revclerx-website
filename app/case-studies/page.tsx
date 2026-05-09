@@ -65,7 +65,7 @@ const approachSteps = [
 export default function CaseStudiesPage() {
   return (
     <PageShell>
-      <ScrollProgress color="linear-gradient(90deg, #4f46e5, #7c3aed, #c026d3)" />
+      <ScrollProgress color="linear-gradient(90deg, #1f4d3a, #163829, #d4c9b0)" />
 
       {/* HERO */}
       <section className="relative overflow-hidden">
@@ -80,7 +80,7 @@ export default function CaseStudiesPage() {
               <VerticalCutReveal>Outcomes, not just</VerticalCutReveal>{' '}
               <SparklesText
                 text="algorithms"
-                colors={['#6366f1', '#a855f7', '#d946ef']}
+                colors={['#1f4d3a', '#163829', '#d4c9b0']}
                 className="bg-[#1f4d3a] hover:bg-[#163829] bg-clip-text text-transparent"
               />
               .
@@ -142,7 +142,7 @@ export default function CaseStudiesPage() {
 
         {/* CASE 2: CardSpotlight */}
         <Reveal as="div" className="grid md:grid-cols-2 gap-6">
-          <CardSpotlight color="rgba(16, 185, 129, 0.18)" className="bg-white border-slate-200 p-8">
+          <CardSpotlight color="rgba(31, 77, 58, 0.18)" className="bg-white border-slate-200 p-8">
             <div className="flex items-center justify-between mb-6">
               <span className="inline-flex items-center gap-2 rounded-full border border-[#1f4d3a]/20 bg-[#edf3ef] text-[#1f4d3a] px-3 py-1 text-xs font-semibold">Healthcare</span>
               <span className="text-xs text-slate-400">Case 02</span>
@@ -239,7 +239,7 @@ export default function CaseStudiesPage() {
 
         {/* CASE 6: CardSpotlight (insurance) */}
         <Reveal as="div" className="grid md:grid-cols-1 gap-6">
-          <CardSpotlight color="rgba(217, 70, 239, 0.18)" className="bg-white border-slate-200 p-8 md:p-12">
+          <CardSpotlight color="rgba(212, 201, 176, 0.18)" className="bg-white border-slate-200 p-8 md:p-12">
             <div className="flex items-center justify-between mb-6">
               <span className="inline-flex items-center gap-2 rounded-full border border-[#1f4d3a]/20 bg-[#edf3ef] text-[#1f4d3a] px-3 py-1 text-xs font-semibold">Insurance</span>
               <span className="text-xs text-slate-400">Case 06</span>
@@ -285,9 +285,9 @@ export default function CaseStudiesPage() {
               <svg width="0" height="0" className="absolute">
                 <defs>
                   <linearGradient id="bar-brand" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#4f46e5" />
-                    <stop offset="50%" stopColor="#7c3aed" />
-                    <stop offset="100%" stopColor="#c026d3" />
+                    <stop offset="0%" stopColor="#1f4d3a" />
+                    <stop offset="50%" stopColor="#163829" />
+                    <stop offset="100%" stopColor="#d4c9b0" />
                   </linearGradient>
                 </defs>
               </svg>

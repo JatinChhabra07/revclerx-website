@@ -21,20 +21,20 @@ type ColorScheme = 'navy-emerald' | 'emerald-only' | 'gold-accent' | 'blue-cyan'
 
 const COLOR_MAP: Record<ColorScheme, string[]> = {
   'navy-emerald': [
-    'radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.15) 0%, transparent 70%)',
     'radial-gradient(circle, rgba(11, 29, 58, 0.3) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(52, 211, 153, 0.1) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.1) 0%, transparent 70%)',
     'radial-gradient(circle, rgba(212, 168, 83, 0.08) 0%, transparent 70%)',
   ],
   'emerald-only': [
-    'radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(5, 150, 105, 0.15) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(52, 211, 153, 0.12) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.2) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.15) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.12) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.1) 0%, transparent 70%)',
   ],
   'gold-accent': [
     'radial-gradient(circle, rgba(212, 168, 83, 0.15) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.12) 0%, transparent 70%)',
     'radial-gradient(circle, rgba(229, 193, 124, 0.1) 0%, transparent 70%)',
     'radial-gradient(circle, rgba(11, 29, 58, 0.2) 0%, transparent 70%)',
   ],
@@ -45,10 +45,10 @@ const COLOR_MAP: Record<ColorScheme, string[]> = {
     'radial-gradient(circle, rgba(37, 99, 235, 0.08) 0%, transparent 70%)',
   ],
   'ai-purple': [
-    'radial-gradient(circle, rgba(107, 78, 228, 0.18) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(85, 56, 196, 0.14) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%)',
-    'radial-gradient(circle, rgba(124, 58, 237, 0.08) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(31, 77, 58, 0.18) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(22, 56, 41, 0.14) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(22, 56, 41, 0.1) 0%, transparent 70%)',
+    'radial-gradient(circle, rgba(22, 56, 41, 0.08) 0%, transparent 70%)',
   ],
   'forest-cream': [
     'radial-gradient(circle, rgba(31, 77, 58, 0.22) 0%, transparent 70%)',
